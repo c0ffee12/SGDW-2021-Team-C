@@ -17,7 +17,7 @@ public class SpringTailPhysics : MonoBehaviour
     public float targetYScale;
 
     [Range(0, 30)]
-    public float springiness = 0.4f;
+    public float springiness = 5f;
 
     [Range(0, 80)]
     public float stiffness = 0f;
@@ -38,8 +38,6 @@ public class SpringTailPhysics : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-
-
         //assign force based on distance to Y scale, like physics F = -kx
         //k is springiness
         force = springiness * (springTail.transform.localScale.y - targetYScale);
@@ -57,7 +55,6 @@ public class SpringTailPhysics : MonoBehaviour
 
         springTail.transform.localScale = scale;
 
-        //springTail.GetComponent<SpriteRenderer>().size = springTail.GetComponent<RectTransform>().rect.size;
     }
 
     public void SetTargetLength(float targetLen)
@@ -65,11 +62,19 @@ public class SpringTailPhysics : MonoBehaviour
         targetYScale = targetLen;
     }
 
+    public void SetSpringiness(float springiness)
+    {
+        this.springiness = springiness;
+    }
+
+    public void SetStiffness(float stiffness)
+    {
+        this.stiffness = stiffness;
+    }
    
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("collision:" + collision.gameObject.name);
         isGrounded = true;
 
         if (collision.gameObject == springTail)

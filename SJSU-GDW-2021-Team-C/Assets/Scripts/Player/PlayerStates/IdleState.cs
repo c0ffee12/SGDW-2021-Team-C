@@ -1,3 +1,4 @@
+using PlayerMovement;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,17 +6,26 @@ using UnityEngine;
 public class IdleState : BaseState
 {
 
-
+    float timeAfterLanded;
     public override void BeginState()
     {
-        FSM.physics.SetTargetLength(1.4f);
+        physics.SetTargetLength(1.4f);
+        //physics.SetSpringiness(20f);
+        base.BeginState();
+
+        timeAfterLanded = 0f;
     }
 
     public override void DoState()
     {
-        if(FSM.physics.isGrounded)
+        timeAfterLanded += Time.deltaTime;
+    }
+
+    public override void Move(MovementHorizontal m)
+    {
+        if (FSM.physics.isGrounded && timeAfterLanded > 2f)
         {
-            //GetComponent<Rigidbody2D>().velocity = new Vector2(0.5f, 5f);
+            FSM.SetState("jumpState");
         }
     }
 

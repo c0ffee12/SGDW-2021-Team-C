@@ -20,12 +20,13 @@ public class CatFSM : MonoBehaviour
     {
         physics = gameObject.AddComponent<SpringTailPhysics>();
         //create state for idle, attach it to cat, add it to states dictionary
-        states.Add("idleState", gameObject.AddComponent<IdleState>().Initialize(this)); 
+        states.Add("idleState", gameObject.AddComponent<IdleState>().Initialize(this));
+        states.Add("jumpState", gameObject.AddComponent<JumpState>().Initialize(this));
 
         SetState("idleState");
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         curState.DoState();
     }
