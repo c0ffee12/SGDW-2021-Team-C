@@ -15,7 +15,7 @@ public class IdleState : BaseState
     {
         if(FSM.physics.isGrounded)
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0.5f, 5f);
+            //GetComponent<Rigidbody2D>().velocity = new Vector2(0.5f, 5f);
         }
     }
 
