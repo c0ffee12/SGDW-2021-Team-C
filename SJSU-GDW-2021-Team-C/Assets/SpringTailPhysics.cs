@@ -5,16 +5,23 @@ using UnityEngine;
 public class SpringTailPhysics : MonoBehaviour
 {
 
+    public Rigidbody catRB;
     public GameObject springTail, catBody;
-    public bool isGrounded;
+    public bool isGrounded
+    {
+        get;
+        private set;
+    }
     private float targetYScale;
 
-    private float springiness = 0.4f;
+    [Range(0, 2)]
+    public float springiness = 0.4f;
     private float force, velocity;
 
     private void Start()
     {
-        springTail = transform.Find("SpringTail").gameObject;
+        catRB = GetComponent<Rigidbody>();
+        springTail = transform.Find("SpringTail/SpringTailHitbox/SpringTailPivot").gameObject;
         targetYScale = springTail.transform.localScale.y;
         force = 0f;
         velocity = -0.3f;
@@ -27,8 +34,11 @@ public class SpringTailPhysics : MonoBehaviour
         velocity -= force;
         Vector2 scale = springTail.transform.localScale;
         scale.y += velocity * Time.deltaTime;
+        scale.y = Mathf.Clamp(scale.y, 0.2f, 2);
 
         springTail.transform.localScale = scale;
+
+        //springTail.GetComponent<SpriteRenderer>().size = springTail.GetComponent<RectTransform>().rect.size;
     }
 
     public void SetTargetLength(float targetLen)
@@ -50,6 +60,14 @@ public class SpringTailPhysics : MonoBehaviour
 
         }
 
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if(collision.contacts.Length == 0)
+        {
+            isGrounded = false;
+        }
     }
 
 }
