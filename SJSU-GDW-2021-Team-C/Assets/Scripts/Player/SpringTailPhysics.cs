@@ -22,7 +22,7 @@ public class SpringTailPhysics : MonoBehaviour
     [Range(0, 80)]
     public float stiffness = 0f;
 
-    private float force, velocity;
+    public float force, velocity;
 
     private void Start()
     {

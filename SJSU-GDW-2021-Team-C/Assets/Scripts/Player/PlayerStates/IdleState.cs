@@ -9,8 +9,12 @@ public class IdleState : BaseState
     float timeAfterLanded;
     public override void BeginState()
     {
-        physics.SetTargetLength(1.4f);
-        //physics.SetSpringiness(20f);
+        physics.SetTargetLength(1f);
+        physics.SetSpringiness(20f);
+        physics.SetStiffness(4f);
+
+        
+        physics.velocity = GetComponent<Rigidbody2D>().velocity.y * 0.2f;
         base.BeginState();
 
         timeAfterLanded = 0f;
@@ -23,7 +27,7 @@ public class IdleState : BaseState
 
     public override void Move(MovementHorizontal m)
     {
-        if (FSM.physics.isGrounded && timeAfterLanded > 2f)
+        if (FSM.physics.isGrounded && m != MovementHorizontal.still)
         {
             FSM.SetState("jumpState");
         }
