@@ -6,10 +6,12 @@ namespace PlayerMovement
 
     public static class PlayerControlDelegates
     {
-        public delegate void EventDelegate(MovementHorizontal m);
+        public delegate void EventDelegate(float horz, bool moving);
+        public delegate void JumpDelegate(bool jump);
 
         //create eventdelegate for player input
         public static EventDelegate PlayerInput;
+        public static JumpDelegate PlayerJump;
     }
 
     public class PlayerControl : MonoBehaviour
@@ -23,17 +25,15 @@ namespace PlayerMovement
                 return;
 
 
-            if(Input.GetAxisRaw("Horizontal") > 0)
+            PlayerControlDelegates.PlayerInput(Input.GetAxis("Horizontal"), Input.GetAxisRaw("Horizontal") != 0);
+
+            if (Input.GetButton("Jump"))
             {
-                PlayerControlDelegates.PlayerInput(MovementHorizontal.right);
-            } 
-            else if(Input.GetAxisRaw("Horizontal") < 0)
-            {
-                PlayerControlDelegates.PlayerInput(MovementHorizontal.left);
+                PlayerControlDelegates.PlayerJump(true);
             }
-            else
+            if(Input.GetButtonUp("Jump"))
             {
-                PlayerControlDelegates.PlayerInput(MovementHorizontal.still);
+                PlayerControlDelegates.PlayerJump(false);
             }
 
         }

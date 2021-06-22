@@ -6,7 +6,7 @@ public class SpringTailPhysics : MonoBehaviour
 {
 
     public Rigidbody catRB;
-    public GameObject springTail, catBody;
+    private GameObject springTail;
     public bool isGrounded
     {
         get;
@@ -27,7 +27,7 @@ public class SpringTailPhysics : MonoBehaviour
     private void Start()
     {
         catRB = GetComponent<Rigidbody>();
-        springTail = transform.Find("SpringTail/SpringTailHitbox/SpringTailPivot").gameObject;
+        springTail = transform.Find("SpringTail/SpringTailHitbox").gameObject;
         targetYScale = springTail.transform.localScale.y;
 
         //initial starting physics
@@ -75,9 +75,10 @@ public class SpringTailPhysics : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        isGrounded = true;
 
-        if (collision.gameObject == springTail)
+        Debug.Log(collision.otherCollider);
+
+        if (collision.enabled && collision.contacts[0].normal == Vector2.up && collision.otherCollider.gameObject == springTail)
         {
 
             isGrounded = true;
@@ -88,7 +89,7 @@ public class SpringTailPhysics : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if(collision.contacts.Length == 0)
+        if(collision.otherCollider.gameObject == springTail && collision.contacts.Length == 0)
         {
             isGrounded = false;
         }

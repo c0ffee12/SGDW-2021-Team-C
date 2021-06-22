@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class IdleState : BaseState
 {
-
     float timeAfterLanded;
+    bool jumping;
+
     public override void BeginState()
     {
         physics.SetTargetLength(1f);
@@ -15,9 +16,17 @@ public class IdleState : BaseState
 
         
         physics.velocity = GetComponent<Rigidbody2D>().velocity.y * 0.2f;
+
+        PlayerControlDelegates.PlayerJump += Jump;
+
         base.BeginState();
 
         timeAfterLanded = 0f;
+    }
+
+    public override void EndState()
+    {
+        base.EndState();
     }
 
     public override void DoState()
@@ -25,12 +34,25 @@ public class IdleState : BaseState
         timeAfterLanded += Time.deltaTime;
     }
 
-    public override void Move(MovementHorizontal m)
+    public override void Move(float horz, bool moving)
     {
-        if (FSM.physics.isGrounded && m != MovementHorizontal.still)
+
+        if(jumping)
+        {
+            FSM.SetState("highJumpState");
+        }
+
+        else if (FSM.physics.isGrounded && moving)
         {
             FSM.SetState("jumpState");
         }
     }
+
+    public void Jump(bool isJumping)
+    {
+        this.jumping = isJumping;
+    }
+
+
 
 }

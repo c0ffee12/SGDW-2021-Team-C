@@ -7,14 +7,15 @@ public class JumpState : BaseState
 {
     float velocityBeforeGrounded;
     float timeDelayAfterJump;
+    float speed = 7f;
 
     public override void BeginState()
     {
-        physics.SetTargetLength(1.4f);
-        physics.SetStiffness(20f);
-        physics.SetSpringiness(5f);
+        physics.SetTargetLength(1.1f);
+        physics.SetStiffness(5f);
+        physics.SetSpringiness(23f);
 
-        GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 200));
+        GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 230));
 
         timeDelayAfterJump = 0f;
         base.BeginState();
@@ -23,14 +24,12 @@ public class JumpState : BaseState
     public override void DoState()
     {
 
-        
-        Debug.Log(GetComponent<Rigidbody2D>().velocity.y);
         timeDelayAfterJump += Time.deltaTime;
 
 
         if(timeDelayAfterJump > 0.15f)
         {
-            physics.SetStiffness(5f);
+            physics.SetStiffness(20f);
             physics.SetTargetLength(1f);
 
             if (physics.isGrounded && timeDelayAfterJump > 0.15f)
@@ -46,22 +45,11 @@ public class JumpState : BaseState
         
     }
 
-    public override void Move(MovementHorizontal m)
+    public override void Move(float horz, bool moving)
     {
 
-        if (m == MovementHorizontal.left)
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-2, GetComponent<Rigidbody2D>().velocity.y);
-        }
-        else if(m==MovementHorizontal.right)
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(2, GetComponent<Rigidbody2D>().velocity.y);
-        }
-
-        else
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, GetComponent<Rigidbody2D>().velocity.y);
-        }
+        GetComponent<Rigidbody2D>().velocity = new Vector2(horz * speed, GetComponent<Rigidbody2D>().velocity.y);
     }
+
 
 }

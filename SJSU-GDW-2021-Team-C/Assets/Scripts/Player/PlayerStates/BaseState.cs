@@ -33,7 +33,7 @@ public class BaseState : MonoBehaviour
         PlayerMovement.PlayerControlDelegates.PlayerInput -= Move;
     }
 
-    public virtual void Move(PlayerMovement.MovementHorizontal m)
+    public virtual void Move(float horz, bool moving)
     {
 
     }

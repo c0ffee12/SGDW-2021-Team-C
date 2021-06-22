@@ -22,6 +22,7 @@ public class CatFSM : MonoBehaviour
         //create state for idle, attach it to cat, add it to states dictionary
         states.Add("idleState", gameObject.AddComponent<IdleState>().Initialize(this));
         states.Add("jumpState", gameObject.AddComponent<JumpState>().Initialize(this));
+        states.Add("highJumpState", gameObject.AddComponent<HighJumpState>().Initialize(this));
 
         SetState("idleState");
     }

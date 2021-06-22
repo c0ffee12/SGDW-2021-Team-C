@@ -16,7 +16,7 @@ namespace PlayerMovement
             sprite = GetComponent<SpriteRenderer>();
 
             //subscribe movement to PlayerControl
-            PlayerControlDelegates.PlayerInput += MovePlayer;
+            //PlayerControlDelegates.PlayerInput += MovePlayer;
 
         }
 
