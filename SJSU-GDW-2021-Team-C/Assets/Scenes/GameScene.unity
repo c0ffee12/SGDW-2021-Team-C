@@ -1072,7 +1072,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042297822}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.45, y: -2.53, z: 0}
+  m_LocalPosition: {x: -0.45, y: -2.67, z: 0}
   m_LocalScale: {x: 0.22403793, y: 0.21191451, z: 1}
   m_Children:
   - {fileID: 1700097634}
@@ -1092,7 +1092,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  playerDetectDistance: 10
+  playerDetectDistance: 7
+  floorDetectRayDistance: 2
   groundDetect: {fileID: 1700097634}
   player: {fileID: 1567177448}
 --- !u!114 &1042297825
