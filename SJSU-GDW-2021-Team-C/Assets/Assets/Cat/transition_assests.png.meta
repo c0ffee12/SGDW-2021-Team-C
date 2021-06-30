@@ -124,12 +124,12 @@ TextureImporter:
       name: transition_assests_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 7
         y: 0
-        width: 132.9
+        width: 130
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,12 +145,12 @@ TextureImporter:
       name: transition_assests_1
       rect:
         serializedVersion: 2
-        x: 132
+        x: 149
         y: 0
-        width: 132.9
+        width: 130
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -166,12 +166,12 @@ TextureImporter:
       name: transition_assests_2
       rect:
         serializedVersion: 2
-        x: 264
+        x: 290
         y: 0
-        width: 132.9
+        width: 130
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: transition_assests_3
       rect:
         serializedVersion: 2
-        x: 396
+        x: 433
         y: 0
-        width: 132.9
+        width: 130
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,12 +208,12 @@ TextureImporter:
       name: transition_assests_4
       rect:
         serializedVersion: 2
-        x: 528
+        x: 576
         y: 0
-        width: 132.9
+        width: 130
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,12 +229,12 @@ TextureImporter:
       name: transition_assests_5
       rect:
         serializedVersion: 2
-        x: 660
+        x: 720
         y: 0
-        width: 132.9
+        width: 130
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,12 +250,12 @@ TextureImporter:
       name: transition_assests_6
       rect:
         serializedVersion: 2
-        x: 792
+        x: 849
         y: 0
-        width: 132.9
+        width: 130
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,12 +271,12 @@ TextureImporter:
       name: transition_assests_7
       rect:
         serializedVersion: 2
-        x: 924
+        x: 979
         y: 0
-        width: 132.9
+        width: 130
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: transition_assests_8
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 1087
         y: 0
-        width: 132.9
+        width: 130
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,13 +313,13 @@ TextureImporter:
       name: transition_assests_9
       rect:
         serializedVersion: 2
-        x: 1188
+        x: 1197
         y: 0
-        width: 132.9
+        width: 105
         height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      alignment: 9
+      pivot: {x: 0.4970366, y: 0.50784785}
+      border: {x: 31, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
