@@ -1421,7 +1421,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.8641615}
+  m_Offset: {x: 0, y: 0.19}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1432,7 +1432,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 4.728323}
+  m_Size: {x: 0.68, y: 1.63}
   m_EdgeRadius: 0
 --- !u!1 &2078013466 stripped
 GameObject:
@@ -1638,15 +1638,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 759072955336077034, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7
+      value: 8.26
       objectReference: {fileID: 0}
     - target: {fileID: 759072955336077034, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.28
+      value: 4.3
       objectReference: {fileID: 0}
     - target: {fileID: 759072955336077034, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.82
       objectReference: {fileID: 0}
     - target: {fileID: 759072955336077034, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1718,7 +1718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 759072956049595692, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.478
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 759072956049595695, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_Layer
@@ -1727,6 +1727,10 @@ PrefabInstance:
     - target: {fileID: 4434368457780825715, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4434368457780825715, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.53
       objectReference: {fileID: 0}
     - target: {fileID: 7608539565147586625, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_Size.x
