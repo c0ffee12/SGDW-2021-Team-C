@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Cat
   - SpringTailHitBox
+  - CatBodyHurtBox
+  - MouseHurtbox
   layers:
   - Default
   - TransparentFX

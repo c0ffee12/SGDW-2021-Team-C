@@ -55,18 +55,18 @@ public class RabidMovement : MonoBehaviour
     {
         if (transform.position.x < player.position.x)
         {
-            transform.Translate(Vector2.right * speed * Time.deltaTime);
+            transform.Translate(Time.deltaTime * speed * Vector2.right);
             transform.eulerAngles = new Vector3(0, 0, 0);
         }
         else   
         {
-            transform.Translate(Vector2.right * speed * Time.deltaTime);
+            transform.Translate(Time.deltaTime * speed * Vector2.right);
             transform.eulerAngles = new Vector3(0, -180, 0);
         }
     }
     private void Patrol()
     {
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        transform.Translate(Time.deltaTime * speed * Vector2.right);
         RaycastHit2D groundCheck = Physics2D.Raycast(groundDetect.position, Vector2.down, floorDetectRayDistance);
         if (groundCheck.collider == false)
         {
@@ -84,7 +84,7 @@ public class RabidMovement : MonoBehaviour
     }
     private IEnumerator Pounce()
     {
-        rb.AddForce(Vector2.up * 500);
+        rb.AddForce(Vector2.up * 250);
         yield return new WaitForSeconds(3f);
         jumping = false;
     }
