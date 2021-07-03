@@ -18,8 +18,6 @@ public class PlayerAnimationControl : MonoBehaviour
     public void Move(float horz, bool moving)
     {
 
-        Debug.Log("Test");
-
         if(horz < 0)
         {
             spriteRenderer.flipX = true;

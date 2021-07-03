@@ -4,20 +4,34 @@ using UnityEngine;
 
 public class MouseAttack : MonoBehaviour
 {
+    private bool canAttack = true;
     public Rigidbody2D player;
-    private void OnTriggerEnter2D(Collider2D collision)
+    public Rigidbody2D mouse;
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("CatBodyHurtBox"))
+        if (collision.gameObject.CompareTag("CatBodyHurtBox") && canAttack)
         {
-            if (player.position.x > transform.position.x)
-            {
-                player.AddForce(Vector2.right * 100);
-            }
-            else
-            {
-                player.AddForce(Vector2.left * 100);
-            }
-            player.AddForce(Vector2.up * 100);
+            canAttack = false;
+            CatPushBack();
+            StartCoroutine(Wait());
         }
+    }
+    private void CatPushBack()
+    {
+        if (player.position.x > transform.position.x)
+        {
+            player.AddForce(Vector2.right * 300);
+        }
+        else
+        {
+            player.AddForce(Vector2.left * 300);
+        }
+        player.AddForce(Vector2.up * 200);
+    }
+    private IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(0.5f);
+        canAttack = true;
     }
 }
