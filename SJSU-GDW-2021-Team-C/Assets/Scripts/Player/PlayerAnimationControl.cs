@@ -7,12 +7,17 @@ public class PlayerAnimationControl : MonoBehaviour
 {
 
     SpriteRenderer spriteRenderer;
+    Animator animator;
 
     // Start is called before the first frame update
     public void Initialize(CatFSM fsm)
     {
-        spriteRenderer = transform.Find("SpringTail/SpringTailHitbox/SpringTailPivot/SpringTailAsset").gameObject.GetComponent<SpriteRenderer>();
+        GameObject asset = transform.Find("SpringTail/SpringTailHitbox/SpringTailPivot/SpringTailAsset").gameObject;
+        spriteRenderer = asset.GetComponent<SpriteRenderer>();
+        animator = asset.GetComponent<Animator>();
+
         PlayerControlDelegates.PlayerInput += Move;
+        PlayerControlDelegates.bounce += Jump;
     }
 
     public void Move(float horz, bool moving)
@@ -27,6 +32,11 @@ public class PlayerAnimationControl : MonoBehaviour
             spriteRenderer.flipX = false;
         }
 
+    }
+
+    public void Jump()
+    {
+        animator.SetTrigger("Jumping");
     }
 
 }

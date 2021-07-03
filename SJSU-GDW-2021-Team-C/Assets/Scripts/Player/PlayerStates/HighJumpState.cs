@@ -6,7 +6,9 @@ public class HighJumpState : JumpState
 {
     public override void BeginState()
     {
-        GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 350));
         base.BeginState();
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        rb.velocity = new Vector2(rb.velocity.x, 12);
+        
     }
 }

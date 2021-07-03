@@ -5,17 +5,22 @@ using UnityEngine;
 
 public class JumpState : BaseState
 {
+
     float velocityBeforeGrounded;
     float timeDelayAfterJump;
     float speed = 7f;
 
     public override void BeginState()
     {
+        if(PlayerControlDelegates.bounce != null)
+            PlayerControlDelegates.bounce();
+
         physics.SetTargetLength(1.1f);
         physics.SetStiffness(5f);
         physics.SetSpringiness(23f);
 
-        GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 230));
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        rb.velocity = new Vector2(rb.velocity.x, 5);
 
         timeDelayAfterJump = 0f;
         base.BeginState();

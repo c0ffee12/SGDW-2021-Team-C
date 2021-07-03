@@ -16,6 +16,7 @@ public class IdleState : BaseState
 
         
         physics.velocity = GetComponent<Rigidbody2D>().velocity.y * 0.2f;
+
         GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
 
         PlayerControlDelegates.PlayerJump += Jump;
