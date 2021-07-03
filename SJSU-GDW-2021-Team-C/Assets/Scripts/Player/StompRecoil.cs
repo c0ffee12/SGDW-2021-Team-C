@@ -9,7 +9,7 @@ public class StompRecoil : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("MouseHurtbox"))
         {
-            player.AddForce(Vector2.up * GetRecoilStrength());
+            player.velocity = new Vector2(player.velocity.x, 10);
         }
     }
     private float GetRecoilStrength()

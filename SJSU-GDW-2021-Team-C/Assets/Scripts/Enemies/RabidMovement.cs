@@ -84,8 +84,8 @@ public class RabidMovement : MonoBehaviour
     }
     private IEnumerator Pounce()
     {
-        rb.AddForce(Vector2.up * 250);
-        yield return new WaitForSeconds(3f);
+        rb.AddForce(Vector2.up * 500);
+        yield return new WaitForSeconds(1.5f);
         jumping = false;
     }
 }
