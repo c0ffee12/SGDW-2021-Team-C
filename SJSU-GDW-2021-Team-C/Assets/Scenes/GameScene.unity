@@ -1504,14 +1504,23 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1911174580}
   m_Enabled: 1
+=======
+  m_GameObject: {fileID: 1792351307}
+  m_Enabled: 0
+>>>>>>> Stashed changes
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< Updated upstream
   m_Offset: {x: -0.011980057, y: 0.03799665}
+=======
+  m_Offset: {x: -0.004036665, y: -3.4266558}
+>>>>>>> Stashed changes
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1522,7 +1531,11 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_Size: {x: 5.1930294, y: 5.128937}
+=======
+  m_Size: {x: 0.5074887, y: 1.6033344}
+>>>>>>> Stashed changes
   m_EdgeRadius: 0
 --- !u!114 &1911174583
 MonoBehaviour:
@@ -1849,7 +1862,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7608539565147586625, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_Size.y
+<<<<<<< Updated upstream
       value: 1.1025059
+=======
+      value: 1.7698413
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7608539565147586625, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_Material
@@ -1861,7 +1878,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7608539565147586625, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_Offset.y
+<<<<<<< Updated upstream
       value: -0.65385914
+=======
+      value: -0.43151516
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7608539565147586625, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_IsTrigger
