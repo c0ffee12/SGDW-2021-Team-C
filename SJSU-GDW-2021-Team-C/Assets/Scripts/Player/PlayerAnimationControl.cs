@@ -27,6 +27,10 @@ public class PlayerAnimationControl : MonoBehaviour
     public void Move(float horz, bool moving)
     {
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         if(horz < 0)
         {
             spriteRenderer.flipX = true;
