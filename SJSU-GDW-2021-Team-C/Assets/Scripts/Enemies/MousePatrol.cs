@@ -8,7 +8,6 @@ public class MousePatrol : MonoBehaviour
     public float floorDetectRayDistance;     //length of ray for mouse to detect floor 
     private bool movingRight;
     public Transform groundDetect;
-    
     void Update()
     {
         transform.Translate(Time.deltaTime * speed * Vector2.right);
@@ -17,12 +16,12 @@ public class MousePatrol : MonoBehaviour
         {
             if (movingRight)
             {
-                transform.eulerAngles = new Vector3(0, -180, 0);
+                transform.eulerAngles = new Vector3(0, 0, 0);
                 movingRight = false;
             }
             else
             {
-                transform.eulerAngles = new Vector3(0, 0, 0);
+                transform.eulerAngles = new Vector3(0, -180, 0);
                 movingRight = true;
             }
         }

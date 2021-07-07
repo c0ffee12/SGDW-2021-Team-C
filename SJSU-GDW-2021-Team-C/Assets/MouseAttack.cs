@@ -6,7 +6,6 @@ using UnityEngine;
 public class MouseAttack : MonoBehaviour
 {
     PlayerEnemyEventControl enemyEvents;
-    private bool canAttack = true;
     public Rigidbody2D player;
     public Rigidbody2D mouse;
 
@@ -17,16 +16,13 @@ public class MouseAttack : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("CatBodyHurtBox") && canAttack)
+        if (collision.gameObject.CompareTag("CatBodyHurtBox") && !enemyEvents.PlayerInvulnerable())
         {
-            canAttack = false;
             CatPushBack();
-            StartCoroutine(Wait());
         }
     }
     private void CatPushBack()
     {
-        Debug.Log("Pushback");
         bool KnockbackLeft;
         if (player.position.x > transform.position.x)
         {
@@ -37,10 +33,5 @@ public class MouseAttack : MonoBehaviour
             KnockbackLeft = false;
         }
         enemyEvents.PlayerTakeDamage(KnockbackLeft);
-    }
-    private IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(0.5f);
-        canAttack = true;
     }
 }

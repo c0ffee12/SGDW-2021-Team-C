@@ -1,3 +1,4 @@
+using EnemyEvents;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,14 +6,11 @@ using UnityEngine;
 public class PlayerHealthSystem : MonoBehaviour
 {
     int health = 10;
-    bool currentlyHurt = false;
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("MouseHitbox") && !currentlyHurt)
+        if (collision.gameObject.CompareTag("MouseHitbox") && !gameObject.GetComponent<PlayerEnemyEventControl>().PlayerInvulnerable())
         {
-            currentlyHurt = true;
             health -= 2;
-            StartCoroutine(Wait());
         }
     }
 
@@ -20,13 +18,8 @@ public class PlayerHealthSystem : MonoBehaviour
     {
         if(health <= 0)
         {
-            Destroy(transform.parent.gameObject);
+            Destroy(gameObject);
         }
     }
 
-    private IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(0.5f);
-        currentlyHurt = false;
-    }
 }

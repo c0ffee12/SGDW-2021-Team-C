@@ -34,6 +34,7 @@ public class BaseState : MonoBehaviour
 
     public virtual void TakeDamage(bool Direction)
     {
+        (FSM.states["PlayerTakeDamageState"] as PlayerTakeDamageState).KnockbackLeft = Direction;
         FSM.SetState("PlayerTakeDamageState");
     }
 

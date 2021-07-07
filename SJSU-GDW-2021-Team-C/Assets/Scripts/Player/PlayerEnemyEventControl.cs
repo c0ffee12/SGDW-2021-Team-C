@@ -11,6 +11,15 @@ namespace EnemyEvents
     {
 
         CatFSM fsm;
+        private float InvulnTime = 5f;
+        public float InvulnDuration { get; private set; } = 3f;
+
+
+        public void FixedUpdate()
+        {
+            if(InvulnTime <= InvulnDuration)
+                InvulnTime += Time.deltaTime;
+        }
 
         public PlayerEnemyEventControl Initialize(CatFSM fsm)
         {
@@ -20,10 +29,25 @@ namespace EnemyEvents
 
         public void PlayerTakeDamage(bool Direction)
         {
-            (fsm.states["PlayerTakeDamageState"] as PlayerTakeDamageState).KnockbackLeft = Direction;
-            fsm.SetState("PlayerTakeDamageState");
+            fsm.curState.TakeDamage(Direction);
+            InvulnTime = 0f;
         }
 
+        public bool PlayerInvulnerable()
+        {
+            if(InvulnTime < InvulnDuration)
+                return true;
+
+            return false;
+        }
+
+        public bool PlayerCanDealDamage()
+        {
+            if(fsm.curState is PlayerTakeDamageState)
+                return false;
+
+            return true;
+        }
 
     }
 }

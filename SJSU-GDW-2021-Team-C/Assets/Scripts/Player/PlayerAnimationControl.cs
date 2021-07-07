@@ -1,3 +1,4 @@
+using EnemyEvents;
 using PlayerMovement;
 using System.Collections;
 using System.Collections.Generic;
@@ -61,7 +62,7 @@ public class PlayerAnimationControl : MonoBehaviour
     public void StartDamageFlicker()
     {
         StopCoroutine(flicker);
-        flicker = DamageFlicker(3f);
+        flicker = DamageFlicker(GetComponent<PlayerEnemyEventControl>().InvulnDuration);
         StartCoroutine(flicker);
     }
 
