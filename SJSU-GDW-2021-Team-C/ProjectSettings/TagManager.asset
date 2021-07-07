@@ -9,6 +9,7 @@ TagManager:
   - CatBodyHurtBox
   - MouseHurtbox
   - MouseHitbox
+  - Food
   layers:
   - Default
   - TransparentFX
