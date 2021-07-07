@@ -5,13 +5,16 @@ using UnityEngine;
 
 public class PlayerAnimationControl : MonoBehaviour
 {
-
+    IEnumerator flicker;
     SpriteRenderer spriteRenderer;
     Animator animator, shadowAnimator;
+    float TimeBetweenFlicker = 0.03f;
 
     // Start is called before the first frame update
     public void Initialize(CatFSM fsm)
     {
+        flicker = DamageFlicker(3f);
+
         GameObject asset = transform.Find("SpringTail/SpringTailHitbox/SpringTailPivot/SpringTailAsset").gameObject;
         GameObject shadowAsset = transform.Find("SpringTail/SpringTailHitbox/SpringTailPivot/SpringTailShadow").gameObject;
 
@@ -41,6 +44,25 @@ public class PlayerAnimationControl : MonoBehaviour
     {
         shadowAnimator.SetTrigger("Jumping");
         animator.SetTrigger("Jumping");
+    }
+
+    public IEnumerator DamageFlicker(float length)
+    {
+        for(float i = length; i >= 0; i -= TimeBetweenFlicker)
+        {
+            spriteRenderer.enabled = !spriteRenderer.enabled;
+            yield return new WaitForSeconds(TimeBetweenFlicker);
+        }
+
+        spriteRenderer.enabled = true;
+
+    }
+
+    public void StartDamageFlicker()
+    {
+        StopCoroutine(flicker);
+        flicker = DamageFlicker(3f);
+        StartCoroutine(flicker);
     }
 
 }

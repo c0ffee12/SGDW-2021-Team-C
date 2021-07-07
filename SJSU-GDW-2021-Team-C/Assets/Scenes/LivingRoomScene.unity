@@ -594,6 +594,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8273782296215885943, guid: 20e2f9aa6312afb41a767cdd5764fb75, type: 3}
+      propertyPath: m_SideArc
+      value: 65.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8273782296215885943, guid: 20e2f9aa6312afb41a767cdd5764fb75, type: 3}
+      propertyPath: m_SurfaceArc
+      value: 74.05
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20e2f9aa6312afb41a767cdd5764fb75, type: 3}
 --- !u!1 &447625090
@@ -851,6 +859,10 @@ PrefabInstance:
     - target: {fileID: 4173658929764111207, guid: b1035d6269772ff4dab77fddbcdcee9c, type: 3}
       propertyPath: m_Name
       value: RabidMouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173658929764111207, guid: b1035d6269772ff4dab77fddbcdcee9c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4173658930633274211, guid: b1035d6269772ff4dab77fddbcdcee9c, type: 3}
       propertyPath: player
@@ -1250,7 +1262,7 @@ GameObject:
   - component: {fileID: 1746487054}
   - component: {fileID: 1746487053}
   m_Layer: 0
-  m_Name: rre
+  m_Name: Sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1612,6 +1624,54 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4986280537634227047, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986280538281838181, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986280538289068804, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986280538584321272, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986280538607000249, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986280538763532075, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986280538901289859, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986280539569582672, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_Pitch
+      value: 1.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986280539569582672, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_Volume
+      value: 0.072
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986280539569582672, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 97bcb83e381464f49b65e45a8224173d, type: 3}
+    - target: {fileID: 4986280539569582674, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4986280539569582675, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
+      propertyPath: SpringClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 97bcb83e381464f49b65e45a8224173d, type: 3}
     - target: {fileID: 4986280539569582686, guid: a825dad689e7aff4a98e71e19a3cd49e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.1

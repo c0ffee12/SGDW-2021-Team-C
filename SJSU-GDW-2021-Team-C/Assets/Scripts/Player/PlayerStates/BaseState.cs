@@ -1,3 +1,4 @@
+using PlayerMovement;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,8 +13,6 @@ public class BaseState : MonoBehaviour
     {
         this.FSM = FSM;
         physics = FSM.physics;
-
-        
 
         return this;
     }
@@ -32,6 +31,13 @@ public class BaseState : MonoBehaviour
     {
         PlayerMovement.PlayerControlDelegates.PlayerInput -= Move;
     }
+
+    public virtual void TakeDamage(bool Direction)
+    {
+        FSM.SetState("PlayerTakeDamageState");
+    }
+
+
 
     public virtual void Move(float horz, bool moving)
     {

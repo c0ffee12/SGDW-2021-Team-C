@@ -39,6 +39,9 @@ public class SpringTailPhysics : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (gameObject == null)
+            return;
+
         //assign force based on distance to Y scale, like physics F = -kx
         //k is springiness
         force = springiness * (springTail.transform.localScale.y - targetYScale);

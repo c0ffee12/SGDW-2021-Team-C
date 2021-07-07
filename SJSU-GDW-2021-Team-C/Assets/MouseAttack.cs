@@ -1,12 +1,19 @@
+using EnemyEvents;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MouseAttack : MonoBehaviour
 {
+    PlayerEnemyEventControl enemyEvents;
     private bool canAttack = true;
     public Rigidbody2D player;
     public Rigidbody2D mouse;
+
+    private void Start()
+    {
+        enemyEvents = player.gameObject.GetComponent<PlayerEnemyEventControl>();
+    }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -19,15 +26,17 @@ public class MouseAttack : MonoBehaviour
     }
     private void CatPushBack()
     {
+        Debug.Log("Pushback");
+        bool KnockbackLeft;
         if (player.position.x > transform.position.x)
         {
-            player.AddForce(Vector2.right * 300);
+            KnockbackLeft = true;
         }
         else
         {
-            player.AddForce(Vector2.left * 300);
+            KnockbackLeft = false;
         }
-        player.AddForce(Vector2.up * 200);
+        enemyEvents.PlayerTakeDamage(KnockbackLeft);
     }
     private IEnumerator Wait()
     {

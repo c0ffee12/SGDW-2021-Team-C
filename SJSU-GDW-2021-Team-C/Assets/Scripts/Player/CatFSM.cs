@@ -1,3 +1,4 @@
+using EnemyEvents;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,16 +17,18 @@ public class CatFSM : MonoBehaviour
     public SpringTailPhysics physics;
 
 
-    private void Start()
+    private void Awake()
     {
         physics = gameObject.AddComponent<SpringTailPhysics>();
         //create state for idle, attach it to cat, add it to states dictionary
         states.Add("idleState", gameObject.AddComponent<IdleState>().Initialize(this));
         states.Add("jumpState", gameObject.AddComponent<JumpState>().Initialize(this));
         states.Add("highJumpState", gameObject.AddComponent<HighJumpState>().Initialize(this));
+        states.Add("PlayerTakeDamageState", gameObject.AddComponent<PlayerTakeDamageState>().Initialize(this));
 
         gameObject.AddComponent<PlayerAudio>();
         gameObject.AddComponent<PlayerAnimationControl>().Initialize(this);
+        gameObject.AddComponent<PlayerEnemyEventControl>().Initialize(this);
 
         SetState("idleState");
     }

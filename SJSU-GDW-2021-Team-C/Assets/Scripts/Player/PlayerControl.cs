@@ -6,6 +6,9 @@ namespace PlayerMovement
 
     public static class PlayerControlDelegates
     {
+
+        public delegate void TakeDamageDelegate(bool Direction);
+
         public delegate void EventDelegate(float horz, bool moving);
         public delegate void JumpDelegate(bool jump);
         public delegate void Bounce();
@@ -13,6 +16,8 @@ namespace PlayerMovement
         public static EventDelegate PlayerInput;
         public static JumpDelegate PlayerJump;
         public static Bounce bounce;
+
+        public static TakeDamageDelegate TakeDamage;
     }
 
     public class PlayerControl : MonoBehaviour
