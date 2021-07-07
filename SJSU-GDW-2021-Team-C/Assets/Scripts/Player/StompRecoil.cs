@@ -12,8 +12,4 @@ public class StompRecoil : MonoBehaviour
             player.velocity = new Vector2(player.velocity.x, 10);
         }
     }
-    private float GetRecoilStrength()
-    {
-        return Mathf.Abs(player.velocity.y) * 100;
-    }
 }

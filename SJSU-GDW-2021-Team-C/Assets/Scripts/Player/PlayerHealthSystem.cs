@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerHealthSystem : MonoBehaviour
 {
-    int health = 10;
+    public int health = 10;
     bool currentlyHurt = false;
     private void OnTriggerStay2D(Collider2D collision)
     {
