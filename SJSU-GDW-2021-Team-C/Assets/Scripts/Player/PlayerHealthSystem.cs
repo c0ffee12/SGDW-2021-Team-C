@@ -17,7 +17,7 @@ public class PlayerHealthSystem : MonoBehaviour
     {
         if(health <= 0)
         {
-            Destroy(transform.parent.gameObject);
+            Destroy(gameObject);
         }
     }
 }

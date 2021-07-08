@@ -15,11 +15,8 @@ namespace PlayerMovement
         //create eventdelegate for player input
         public static EventDelegate PlayerInput;
         public static JumpDelegate PlayerJump;
-
         public static JumpDelegate ChargeJump;
-
         public static Bounce bounce;
-
         public static TakeDamageDelegate TakeDamage;
     }
 
@@ -55,6 +52,15 @@ namespace PlayerMovement
                 PlayerControlDelegates.ChargeJump(false);
             }
 
+        }
+
+        public void OnSceneUnload()
+        {
+            PlayerControlDelegates.PlayerInput = null;
+            PlayerControlDelegates.PlayerJump = null;
+            PlayerControlDelegates.ChargeJump = null;
+            PlayerControlDelegates.bounce = null;
+            PlayerControlDelegates.TakeDamage = null;
         }
     }
 

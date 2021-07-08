@@ -12,6 +12,8 @@ public class JumpState : BaseState
 
     public override void BeginState()
     {
+        PlayerControlDelegates.PlayerJump += ExtraJump;
+
         if(PlayerControlDelegates.bounce != null)
             PlayerControlDelegates.bounce();
 
@@ -34,6 +36,7 @@ public class JumpState : BaseState
 
         if(timeDelayAfterJump > 0.15f)
         {
+            PlayerControlDelegates.PlayerJump -= ExtraJump;
             physics.SetStiffness(20f);
             physics.SetTargetLength(1f);
 
@@ -50,10 +53,25 @@ public class JumpState : BaseState
         
     }
 
+    public override void EndState()
+    {
+        PlayerControlDelegates.PlayerJump -= ExtraJump;
+        base.EndState();
+    }
+
     public override void Move(float horz, bool moving)
     {
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(horz * speed, GetComponent<Rigidbody2D>().velocity.y);
+    }
+
+    public void ExtraJump(bool jump)
+    {
+        if(jump)
+        {
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            rb.velocity = new Vector2(rb.velocity.x, 12);
+        }
     }
 
 

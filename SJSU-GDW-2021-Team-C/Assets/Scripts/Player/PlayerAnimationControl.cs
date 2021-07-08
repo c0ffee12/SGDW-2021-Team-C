@@ -7,19 +7,23 @@ using UnityEngine;
 public class PlayerAnimationControl : MonoBehaviour
 {
     IEnumerator flicker;
-    SpriteRenderer spriteRenderer;
+    SpriteRenderer spriteRenderer, shadowSpriteRenderer;
     Animator animator, shadowAnimator;
     float TimeBetweenFlicker = 0.03f;
 
-    // Start is called before the first frame update
-    public void Initialize(CatFSM fsm)
+
+    private void OnEnable()
     {
+
+        Debug.Log("created");
+
         flicker = DamageFlicker(3f);
 
         GameObject asset = transform.Find("SpringTail/SpringTailHitbox/SpringTailPivot/SpringTailAsset").gameObject;
         GameObject shadowAsset = transform.Find("SpringTail/SpringTailHitbox/SpringTailPivot/SpringTailShadow").gameObject;
 
         spriteRenderer = asset.GetComponent<SpriteRenderer>();
+        shadowSpriteRenderer = shadowAsset.GetComponent<SpriteRenderer>();
 
         animator = asset.GetComponent<Animator>();
         shadowAnimator = shadowAsset.GetComponent<Animator>();
@@ -28,14 +32,28 @@ public class PlayerAnimationControl : MonoBehaviour
         PlayerControlDelegates.bounce += Jump;
     }
 
+    // Start is called before the first frame update
+    public void Initialize(CatFSM fsm)
+    {
+        
+    }
+
     public void Move(float horz, bool moving)
     {
+
+        if(spriteRenderer == null)
+        {
+            return;
+        }
+
         if(horz < 0)
         {
+            shadowSpriteRenderer.flipX = true;
             spriteRenderer.flipX = true;
         }
         else if (horz > 0)
         {
+            shadowSpriteRenderer.flipX = false;
             spriteRenderer.flipX = false;
         }
 
@@ -49,6 +67,7 @@ public class PlayerAnimationControl : MonoBehaviour
 
     public void SuperJump(bool value)
     {
+        shadowAnimator.SetBool("ChargeJump", value);
         animator.SetBool("ChargeJump", value);
     }
 
