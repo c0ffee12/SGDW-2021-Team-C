@@ -25,6 +25,7 @@ public class CatFSM : MonoBehaviour
         states.Add("jumpState", gameObject.AddComponent<JumpState>().Initialize(this));
         states.Add("highJumpState", gameObject.AddComponent<HighJumpState>().Initialize(this));
         states.Add("PlayerTakeDamageState", gameObject.AddComponent<PlayerTakeDamageState>().Initialize(this));
+        states.Add("SuperJumpState", gameObject.AddComponent<SuperJumpState>().Initialize(this));
 
         gameObject.AddComponent<PlayerAudio>();
         gameObject.AddComponent<PlayerAnimationControl>().Initialize(this);

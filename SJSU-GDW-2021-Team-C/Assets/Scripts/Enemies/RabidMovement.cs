@@ -14,8 +14,13 @@ public class RabidMovement : MonoBehaviour
     public Transform player;
     private Rigidbody2D rb;
 
+    public Animator animator;
+
     void Start()
     {
+
+        animator = GetComponent<Animator>();
+        animator.SetTrigger("Jump");
         rb = GetComponent<Rigidbody2D>();
         jumping = false;
     }
@@ -50,6 +55,7 @@ public class RabidMovement : MonoBehaviour
                 StartCoroutine(Pounce());
             }
         }
+
     }
     private void ChasePlayer()
     {
@@ -82,9 +88,11 @@ public class RabidMovement : MonoBehaviour
             }
         }
     }
+
     private IEnumerator Pounce()
     {
         rb.AddForce(Vector2.up * 500);
+        animator.SetTrigger("Jump");
         yield return new WaitForSeconds(1.5f);
         jumping = false;
     }

@@ -47,6 +47,11 @@ public class PlayerAnimationControl : MonoBehaviour
         animator.SetTrigger("Jumping");
     }
 
+    public void SuperJump(bool value)
+    {
+        animator.SetBool("ChargeJump", value);
+    }
+
     public IEnumerator DamageFlicker(float length)
     {
         for(float i = length; i >= 0; i -= TimeBetweenFlicker)

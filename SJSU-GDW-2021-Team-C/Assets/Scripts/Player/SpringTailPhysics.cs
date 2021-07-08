@@ -7,11 +7,7 @@ public class SpringTailPhysics : MonoBehaviour
 
     public Rigidbody catRB;
     private GameObject springTail, hitbox;
-    public bool isGrounded
-    {
-        get;
-        private set;
-    }
+    public bool isGrounded;
 
     [Range(0, 5)]
     public float targetYScale;
@@ -80,8 +76,6 @@ public class SpringTailPhysics : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        Debug.Log(collision.otherCollider + ": " + Vector3.Dot(Vector3.down, collision.contacts[0].normal));
-
         if (collision.enabled &&  Vector3.Dot(Vector3.down, collision.contacts[0].normal) < -0.5f && collision.otherCollider.gameObject == hitbox)
         {
 
@@ -91,9 +85,21 @@ public class SpringTailPhysics : MonoBehaviour
 
     }
 
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+
+        if (collision.enabled && Vector3.Dot(Vector3.down, collision.contacts[0].normal) < -0.5f && collision.otherCollider.gameObject == hitbox)
+        {
+            //incase of stuck bug
+            isGrounded = true;
+
+        }
+
+    }
+
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if(collision.otherCollider.gameObject == hitbox  && collision.contacts.Length == 0)
+        if(collision.otherCollider.gameObject == hitbox && collision.contacts.Length == 0)
         {
             isGrounded = false;
         }

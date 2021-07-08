@@ -44,7 +44,7 @@ public class PlayerTakeDamageState : BaseState
     public override void Move(float horz, bool moving)
     {
 
-        GetComponent<Rigidbody2D>().velocity = new Vector2(5 * (KnockbackLeft ? 1 : -1) + horz * speed, GetComponent<Rigidbody2D>().velocity.y);
+        GetComponent<Rigidbody2D>().velocity = new Vector2(2 * (KnockbackLeft ? 1 : -1) + horz * speed, GetComponent<Rigidbody2D>().velocity.y);
     }
 
 }

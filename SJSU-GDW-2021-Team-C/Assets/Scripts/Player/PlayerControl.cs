@@ -15,6 +15,9 @@ namespace PlayerMovement
         //create eventdelegate for player input
         public static EventDelegate PlayerInput;
         public static JumpDelegate PlayerJump;
+
+        public static JumpDelegate ChargeJump;
+
         public static Bounce bounce;
 
         public static TakeDamageDelegate TakeDamage;
@@ -33,13 +36,23 @@ namespace PlayerMovement
 
             PlayerControlDelegates.PlayerInput(Input.GetAxis("Horizontal"), Input.GetAxisRaw("Horizontal") != 0);
 
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Jump") && PlayerControlDelegates.PlayerJump != null)
             {
                 PlayerControlDelegates.PlayerJump(true);
             }
-            if(Input.GetButtonUp("Jump"))
+            if(Input.GetButtonUp("Jump") && PlayerControlDelegates.PlayerJump != null)
             {
                 PlayerControlDelegates.PlayerJump(false);
+            }
+
+            if(Input.GetKey(KeyCode.LeftShift) && PlayerControlDelegates.ChargeJump != null)
+            {
+                PlayerControlDelegates.ChargeJump(true);
+            }
+
+            if (Input.GetKeyUp(KeyCode.LeftShift) && PlayerControlDelegates.ChargeJump != null)
+            {
+                PlayerControlDelegates.ChargeJump(false);
             }
 
         }
