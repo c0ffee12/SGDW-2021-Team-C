@@ -24,6 +24,8 @@ public class PlayerTakeDamageState : BaseState
 
     public override void BeginState()
     {
+        GetComponent<PlayerHealthSystem>().TakeDamage();
+
         timeDelay = 0f;
         GetComponent<PlayerAnimationControl>().StartDamageFlicker();
         GetComponent<Rigidbody2D>().velocity = new Vector2(5 * (KnockbackLeft ? 1 : -1), 10);
