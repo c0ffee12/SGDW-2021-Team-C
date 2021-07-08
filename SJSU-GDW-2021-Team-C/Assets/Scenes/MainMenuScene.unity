@@ -1195,15 +1195,16 @@ MonoBehaviour:
   m_Text: 'For SJSU Summer GDW 2021
 
 
-    Visual Development - Kamala, Penny
+    Visual Development - Kamala Roberts, Penny
+    Lendahl
 
 
-    Programming
-    - Sean, Dominic
+    Programming - Sean Mei, Dominic Lopez, Griffin Davidson
 
 
 
-    Music by Kevin MacLeod'
+    Music
+    by Kevin MacLeod'
 --- !u!222 &1741409038
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1357,8 +1358,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d3946ff34e53c4f8b9609a3422a291, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: {fileID: 0}
-  muteButton: {fileID: 0}
+  music: {fileID: 377082424}
+  muteButton: {fileID: 1834348023}
 --- !u!1 &2006839051
 GameObject:
   m_ObjectHideFlags: 0

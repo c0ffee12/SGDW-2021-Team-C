@@ -6,12 +6,8 @@ public class SpringTailPhysics : MonoBehaviour
 {
 
     public Rigidbody catRB;
-    private GameObject springTail;
-    public bool isGrounded
-    {
-        get;
-        private set;
-    }
+    private GameObject springTail, hitbox;
+    public bool isGrounded;
 
     [Range(0, 5)]
     public float targetYScale;
@@ -27,7 +23,8 @@ public class SpringTailPhysics : MonoBehaviour
     private void Start()
     {
         catRB = GetComponent<Rigidbody>();
-        springTail = transform.Find("SpringTail/SpringTailHitbox").gameObject;
+        springTail = transform.Find("SpringTail/SpringTailHitbox/SpringTailPivot").gameObject;
+        hitbox = transform.Find("SpringTail/SpringTailHitbox").gameObject;
         targetYScale = springTail.transform.localScale.y;
 
         //initial starting physics
@@ -38,6 +35,9 @@ public class SpringTailPhysics : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (gameObject == null)
+            return;
+
         //assign force based on distance to Y scale, like physics F = -kx
         //k is springiness
         force = springiness * (springTail.transform.localScale.y - targetYScale);
@@ -76,9 +76,7 @@ public class SpringTailPhysics : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        Debug.Log(collision.otherCollider);
-
-        if (collision.enabled && collision.contacts[0].normal == Vector2.up && collision.otherCollider.gameObject == springTail)
+        if (collision.enabled &&  Vector3.Dot(Vector3.down, collision.contacts[0].normal) < -0.5f && collision.otherCollider.gameObject == hitbox)
         {
 
             isGrounded = true;
@@ -87,9 +85,21 @@ public class SpringTailPhysics : MonoBehaviour
 
     }
 
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+
+        if (collision.enabled && Vector3.Dot(Vector3.down, collision.contacts[0].normal) < -0.5f && collision.otherCollider.gameObject == hitbox)
+        {
+            //incase of stuck bug
+            isGrounded = true;
+
+        }
+
+    }
+
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if(collision.otherCollider.gameObject == springTail && collision.contacts.Length == 0)
+        if(collision.otherCollider.gameObject == hitbox && collision.contacts.Length == 0)
         {
             isGrounded = false;
         }

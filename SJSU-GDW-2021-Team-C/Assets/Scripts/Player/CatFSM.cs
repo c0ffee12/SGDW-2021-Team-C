@@ -1,3 +1,4 @@
+using EnemyEvents;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,8 +24,12 @@ public class CatFSM : MonoBehaviour
         states.Add("idleState", gameObject.AddComponent<IdleState>().Initialize(this));
         states.Add("jumpState", gameObject.AddComponent<JumpState>().Initialize(this));
         states.Add("highJumpState", gameObject.AddComponent<HighJumpState>().Initialize(this));
+        states.Add("PlayerTakeDamageState", gameObject.AddComponent<PlayerTakeDamageState>().Initialize(this));
+        states.Add("SuperJumpState", gameObject.AddComponent<SuperJumpState>().Initialize(this));
 
+        gameObject.AddComponent<PlayerAudio>();
         gameObject.AddComponent<PlayerAnimationControl>().Initialize(this);
+        gameObject.AddComponent<PlayerEnemyEventControl>().Initialize(this);
 
         SetState("idleState");
     }

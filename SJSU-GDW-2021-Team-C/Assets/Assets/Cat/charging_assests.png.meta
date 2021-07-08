@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: c27557f5b7b86bf45bc7958822a0312a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1037229029891849071
+    second: charging_assests_0
+  - first:
+      213: -5354021636299968412
+    second: charging_assests_1
+  - first:
+      213: -2619081633611585134
+    second: charging_assests_2
+  - first:
+      213: 2053679000849529778
+    second: charging_assests_3
+  - first:
+      213: -4356865279372990140
+    second: charging_assests_4
+  - first:
+      213: 721224764751561046
+    second: charging_assests_5
+  - first:
+      213: -4069061668639343289
+    second: charging_assests_6
+  - first:
+      213: 5143024765831459012
+    second: charging_assests_7
+  - first:
+      213: 538297620137009237
+    second: charging_assests_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +59,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +68,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -68,7 +95,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -77,7 +116,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: charging_assests_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 147
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194c29a51b50b91f0800000000000000
+      internalID: -1037229029891849071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_assests_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 147
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460b59840b1b2b5b0800000000000000
+      internalID: -5354021636299968412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_assests_2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 147
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299e4d6712727abd0800000000000000
+      internalID: -2619081633611585134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_assests_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 0
+        width: 147
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbb050ab22208c10800000000000000
+      internalID: 2053679000849529778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_assests_4
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 147
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4496db0bc1e4983c0800000000000000
+      internalID: -4356865279372990140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_assests_5
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 147
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6514b323a1e420a00800000000000000
+      internalID: 721224764751561046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_assests_6
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 0
+        width: 147
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74df79f98f9c787c0800000000000000
+      internalID: -4069061668639343289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_assests_7
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 0
+        width: 147
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0bb6e86c1bf5740800000000000000
+      internalID: 5143024765831459012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charging_assests_8
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 0
+        width: 147
+        height: 170
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55064bf55da687700800000000000000
+      internalID: 538297620137009237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
