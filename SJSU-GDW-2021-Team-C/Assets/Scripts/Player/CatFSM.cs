@@ -17,7 +17,7 @@ public class CatFSM : MonoBehaviour
     public SpringTailPhysics physics;
 
 
-    private void Start()
+    private void Awake()
     {
         physics = gameObject.AddComponent<SpringTailPhysics>();
         //create state for idle, attach it to cat, add it to states dictionary

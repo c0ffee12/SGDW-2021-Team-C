@@ -6,12 +6,11 @@ using UnityEngine;
 public class MouseAttack : MonoBehaviour
 {
     PlayerEnemyEventControl enemyEvents;
-    public Rigidbody2D player;
-    public Rigidbody2D mouse;
+    public GameObject player;
 
     private void Start()
     {
-        enemyEvents = player.gameObject.GetComponent<PlayerEnemyEventControl>();
+        enemyEvents = player.GetComponent<PlayerEnemyEventControl>();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -24,7 +23,7 @@ public class MouseAttack : MonoBehaviour
     private void CatPushBack()
     {
         bool KnockbackLeft;
-        if (player.position.x > transform.position.x)
+        if (player.transform.position.x > transform.position.x)
         {
             KnockbackLeft = true;
         }
