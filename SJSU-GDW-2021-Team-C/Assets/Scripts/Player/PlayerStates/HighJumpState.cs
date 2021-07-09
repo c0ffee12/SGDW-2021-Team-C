@@ -18,6 +18,6 @@ public class HighJumpState : JumpState
 
     public void AddExtraJump(float extraJumpAmount)
     {
-        this.extraJumpAmount = extraJumpAmount * 3;
+        this.extraJumpAmount = extraJumpAmount * 12;
     }
 }

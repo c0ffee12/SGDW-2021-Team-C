@@ -31,26 +31,16 @@ namespace PlayerMovement
                 return;
 
 
-            PlayerControlDelegates.PlayerInput(Input.GetAxis("Horizontal"), Input.GetAxisRaw("Horizontal") != 0);
-
-            if (Input.GetButtonDown("Jump") && PlayerControlDelegates.PlayerJump != null)
-            {
-                PlayerControlDelegates.PlayerJump(true);
-            }
-            if(Input.GetButtonUp("Jump") && PlayerControlDelegates.PlayerJump != null)
-            {
-                PlayerControlDelegates.PlayerJump(false);
-            }
-
-            if(Input.GetKey(KeyCode.LeftShift) && PlayerControlDelegates.ChargeJump != null)
+            if (Input.GetButton("Jump") && PlayerControlDelegates.ChargeJump != null)
             {
                 PlayerControlDelegates.ChargeJump(true);
             }
-
-            if (Input.GetKeyUp(KeyCode.LeftShift) && PlayerControlDelegates.ChargeJump != null)
+            /*
+            if (Input.GetButtonUp("Jump") && PlayerControlDelegates.ChargeJump != null)
             {
                 PlayerControlDelegates.ChargeJump(false);
-            }
+            }*/
+            PlayerControlDelegates.PlayerInput(Input.GetAxis("Horizontal"), Input.GetAxisRaw("Horizontal") != 0);
 
         }
 

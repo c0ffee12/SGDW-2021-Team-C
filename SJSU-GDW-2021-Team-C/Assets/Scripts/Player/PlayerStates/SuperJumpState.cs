@@ -27,8 +27,12 @@ public class SuperJumpState : BaseState
 
     public override void DoState()
     {
-        if (chargeAmount < 2f)
+        if (chargeAmount < 0.5f)
             chargeAmount += Time.deltaTime;
+        else
+        {
+            ChargeJumping(false);
+        }
 
         base.DoState();
 
@@ -50,6 +54,12 @@ public class SuperJumpState : BaseState
             GetComponent<HighJumpState>().AddExtraJump(chargeAmount);
             FSM.SetState("highJumpState");
         }
+    }
+
+    public override void Move(float horz, bool moving)
+    {
+
+        GetComponent<Rigidbody2D>().velocity = new Vector2(horz * 2f, GetComponent<Rigidbody2D>().velocity.y);
     }
 
 }

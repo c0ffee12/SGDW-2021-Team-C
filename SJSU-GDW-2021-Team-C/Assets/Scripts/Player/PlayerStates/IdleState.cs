@@ -11,8 +11,6 @@ public class IdleState : BaseState
 
     public override BaseState Initialize(CatFSM FSM)
     {
-        
-        PlayerControlDelegates.PlayerJump += Jump;
 
         return base.Initialize(FSM);
     }
@@ -21,6 +19,7 @@ public class IdleState : BaseState
     {
 
         PlayerControlDelegates.ChargeJump += OnChargeJump;
+        PlayerControlDelegates.PlayerJump += Jump;
 
         physics.SetTargetLength(1f);
         physics.SetSpringiness(20f);
@@ -60,14 +59,9 @@ public class IdleState : BaseState
     public override void Move(float horz, bool moving)
     {
 
-        if(jumping)
+        if (FSM.physics.isGrounded && moving)
         {
             FSM.SetState("highJumpState");
-        }
-
-        else if (FSM.physics.isGrounded && moving)
-        {
-            FSM.SetState("jumpState");
         }
     }
 
