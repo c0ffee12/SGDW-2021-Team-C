@@ -6,7 +6,7 @@ using UnityEngine;
 public class IdleState : BaseState
 {
     float timeAfterLanded;
-    bool jumping;
+    bool jumping = true;
 
 
     public override BaseState Initialize(CatFSM FSM)
@@ -61,7 +61,15 @@ public class IdleState : BaseState
 
         if (FSM.physics.isGrounded && moving)
         {
-            FSM.SetState("highJumpState");
+            if(!jumping)
+            {
+                FSM.SetState("jumpState");
+            }
+            else
+            {
+                FSM.SetState("highJumpState");
+            }
+            
         }
     }
 

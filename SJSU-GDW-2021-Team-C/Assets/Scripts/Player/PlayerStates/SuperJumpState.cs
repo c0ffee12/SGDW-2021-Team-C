@@ -29,10 +29,6 @@ public class SuperJumpState : BaseState
     {
         if (chargeAmount < 0.5f)
             chargeAmount += Time.deltaTime;
-        else
-        {
-            ChargeJumping(false);
-        }
 
         base.DoState();
 
