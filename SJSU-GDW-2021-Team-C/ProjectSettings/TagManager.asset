@@ -10,6 +10,8 @@ TagManager:
   - MouseHurtbox
   - MouseHitbox
   - Food
+  - Key1
+  - Door1
   layers:
   - Default
   - TransparentFX
