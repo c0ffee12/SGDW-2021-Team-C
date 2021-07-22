@@ -9,6 +9,8 @@ public class JumpState : BaseState
     float velocityBeforeGrounded;
     float timeDelayAfterJump;
     float speed = 7f;
+    bool doubleJump = false;
+    bool addedDoubleJump;
 
     public override void BeginState()
     {
@@ -24,7 +26,6 @@ public class JumpState : BaseState
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(rb.velocity.x, 5);
 
-        timeDelayAfterJump = 0f;
         base.BeginState();
     }
 
@@ -36,6 +37,7 @@ public class JumpState : BaseState
 
         if(timeDelayAfterJump > 0.15f)
         {
+
             PlayerControlDelegates.PlayerJump -= ExtraJump;
             physics.SetStiffness(20f);
             physics.SetTargetLength(1f);
@@ -50,11 +52,26 @@ public class JumpState : BaseState
             }
         }
 
+        if(timeDelayAfterJump >= 0.22f)
+        {
+            if(!addedDoubleJump)
+            {
+                addedDoubleJump = true;
+                PlayerControlDelegates.ChargeJump += DoubleJump;
+            }
+
+            
+        }
+
+
         
     }
 
     public override void EndState()
     {
+        timeDelayAfterJump = 0f;
+        addedDoubleJump = false;
+        PlayerControlDelegates.ChargeJump -= DoubleJump;
         PlayerControlDelegates.PlayerJump -= ExtraJump;
         base.EndState();
     }
@@ -71,6 +88,20 @@ public class JumpState : BaseState
         {
             Rigidbody2D rb = GetComponent<Rigidbody2D>();
             rb.velocity = new Vector2(rb.velocity.x, 12);
+        }
+    }
+
+    public void InitializeJump()
+    {
+        doubleJump = false;
+    }
+
+    public void DoubleJump(bool jump)
+    {
+        if(jump && doubleJump == false)
+        {
+            doubleJump = true;
+            FSM.SetState("highJumpState");
         }
     }
 

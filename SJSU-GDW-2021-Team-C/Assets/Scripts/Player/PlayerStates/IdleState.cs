@@ -18,7 +18,7 @@ public class IdleState : BaseState
     public override void BeginState()
     {
 
-        PlayerControlDelegates.ChargeJump += OnChargeJump;
+        //PlayerControlDelegates.ChargeJump += OnChargeJump;
         PlayerControlDelegates.PlayerJump += Jump;
 
         physics.SetTargetLength(1f);
@@ -38,7 +38,7 @@ public class IdleState : BaseState
 
     public override void EndState()
     {
-        PlayerControlDelegates.ChargeJump -= OnChargeJump;
+        //PlayerControlDelegates.ChargeJump -= OnChargeJump;
         base.EndState();
     }
 
@@ -63,14 +63,18 @@ public class IdleState : BaseState
         {
             if(!jumping)
             {
+                GetComponent<JumpState>().InitializeJump();
                 FSM.SetState("jumpState");
+                
             }
             else
             {
+                GetComponent<HighJumpState>().InitializeJump();
                 FSM.SetState("highJumpState");
             }
             
         }
+
     }
 
     public void Jump(bool isJumping)
