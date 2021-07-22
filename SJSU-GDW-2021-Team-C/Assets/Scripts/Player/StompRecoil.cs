@@ -10,6 +10,7 @@ public class StompRecoil : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("MouseHurtbox") && player.gameObject.GetComponent<PlayerEnemyEventControl>().PlayerCanDealDamage())
         {
+
             player.velocity = new Vector2(player.velocity.x, 10);
         }
     }

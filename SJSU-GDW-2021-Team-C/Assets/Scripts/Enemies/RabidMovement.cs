@@ -18,7 +18,7 @@ public class RabidMovement : MonoBehaviour
 
     void Start()
     {
-
+        player = GameObject.Find("Player").gameObject.transform;
         animator = GetComponent<Animator>();
         animator.SetTrigger("Jump");
         rb = GetComponent<Rigidbody2D>();

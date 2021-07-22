@@ -26,9 +26,21 @@ namespace PlayerMovement
     public class PlayerControl : MonoBehaviour
     {
 
+        public OnGameEnd gameEnd;
+
+        public void Start()
+        {
+            gameEnd = GameObject.Find("GameController").GetComponent<OnGameEnd>();
+        }
+
         // Update is called once per frame
         void Update()
         {
+
+            if(gameEnd.ending)
+            {
+                return;
+            }
 
             if (PlayerControlDelegates.PlayerInput == null)
                 return;
@@ -55,7 +67,6 @@ namespace PlayerMovement
             }
 
             PlayerControlDelegates.PlayerInput(Input.GetAxis("Horizontal"), Input.GetAxisRaw("Horizontal") != 0);
-
         }
 
         public void OnSceneUnload()

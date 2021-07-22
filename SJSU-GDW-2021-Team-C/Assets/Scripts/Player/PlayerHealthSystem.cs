@@ -3,6 +3,7 @@ using PlayerMovement;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthSystem : MonoBehaviour
 {
@@ -28,7 +29,9 @@ public class PlayerHealthSystem : MonoBehaviour
     {
         if(health <= 0)
         {
+            GameObject.Find("GameController").GetComponent<OnGameEnd>().StartLevelEnd(SceneManager.GetActiveScene().name);
             Destroy(gameObject);
+            
         }
     }
 }

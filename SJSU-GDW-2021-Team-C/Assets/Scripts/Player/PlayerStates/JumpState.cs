@@ -9,8 +9,8 @@ public class JumpState : BaseState
     float velocityBeforeGrounded;
     float timeDelayAfterJump;
     float speed = 7f;
-    bool doubleJump = false;
-    bool addedDoubleJump;
+    public bool doubleJump = false;
+    public bool addedDoubleJump;
 
     public override void BeginState()
     {

@@ -8,6 +8,12 @@ public class MousePatrol : MonoBehaviour
     public float floorDetectRayDistance, wallDetectRayDistance;     //length of ray for mouse to detect floor 
     private bool movingRight;
     public Transform groundDetect;
+
+    private void Start()
+    {
+        wallDetectRayDistance = 1f;
+    }
+
     void Update()
     {
         transform.Translate(Time.deltaTime * speed * Vector2.right);

@@ -10,6 +10,7 @@ public class MouseAttack : MonoBehaviour
 
     private void Start()
     {
+        player = GameObject.Find("Player");
         enemyEvents = player.GetComponent<PlayerEnemyEventControl>();
     }
 

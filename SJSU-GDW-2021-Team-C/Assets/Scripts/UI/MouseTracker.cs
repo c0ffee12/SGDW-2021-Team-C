@@ -19,7 +19,6 @@ public class MouseTracker : MonoBehaviour
 
     public IEnumerator UpdateMouseTracker()
     {
-
         GameObject nearestMouse;
         float nearestDistance;
 
@@ -27,7 +26,11 @@ public class MouseTracker : MonoBehaviour
 
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("MouseHurtbox");
 
-        if(enemies.Length > 0)
+        GameObject door = GameObject.FindGameObjectWithTag("Door1");
+        GameObject key = GameObject.FindGameObjectWithTag("Key1");
+        Debug.Log(enemies.Length);
+
+        if (enemies.Length > 1)
         {
              nearestMouse = enemies[0];
              nearestDistance = ((Vector2)(player.transform.position - enemies[0].transform.position)).sqrMagnitude;
@@ -41,14 +44,30 @@ public class MouseTracker : MonoBehaviour
                     nearestMouse = enemies[i];
                 }
             }
-            Debug.Log("Nearest Mouse: " + nearestMouse.transform.parent.name);
 
 
 
             rotationOfCursor = Vector2.SignedAngle(Vector2.up, nearestMouse.transform.position - player.transform.position + 2 * Vector3.up) + 180; //180 is temp; change when making new ui
 
-        } else
+        } 
+
+
+
+        else if(key != null)
         {
+            Debug.Log("1");
+            rotationOfCursor = Vector2.SignedAngle(Vector2.up, key.transform.position - player.transform.position + 2 * Vector3.up) + 180;
+        }
+        
+        else if(door != null)
+        {
+            Debug.Log("2");
+            rotationOfCursor = Vector2.SignedAngle(Vector2.up, door.transform.position - player.transform.position + 2 * Vector3.up) + 180;
+        }
+        
+        else
+        {
+            Debug.Log("3");
             rotationOfCursor = 0f;
         }
         r.rotation = Quaternion.Euler(0, 0, rotationOfCursor);

@@ -15,7 +15,6 @@ public class PlayerAnimationControl : MonoBehaviour
     private void OnEnable()
     {
 
-        Debug.Log("created");
 
         flicker = DamageFlicker(3f);
 
