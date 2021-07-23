@@ -27,7 +27,6 @@ public class HealthDisplay : MonoBehaviour
 
     public void OnChangeHealth(int health)
     {
-        Debug.Log(health);
 
         for(int i = 0; i < health; i++)
         {

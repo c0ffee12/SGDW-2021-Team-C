@@ -28,7 +28,6 @@ public class MouseTracker : MonoBehaviour
 
         GameObject door = GameObject.FindGameObjectWithTag("Door1");
         GameObject key = GameObject.FindGameObjectWithTag("Key1");
-        Debug.Log(enemies.Length);
 
         if (enemies.Length > 1)
         {
