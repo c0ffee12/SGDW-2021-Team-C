@@ -9,13 +9,14 @@ public class OnGameEnd : MonoBehaviour
     public string SceneToLoad;
     public PlayerControl control;
     public GameObject camera;
-    public bool ending = false;
+    public bool ending = false, dead = false;
     float timeDelay = 0f;
 
     // Start is called before the first frame update
     void Start()
     {
         control = GameObject.Find("Player").GetComponent<PlayerControl>();
+        camera = GameObject.Find("Main Camera");
     }
 
     // Update is called once per frame
@@ -23,8 +24,14 @@ public class OnGameEnd : MonoBehaviour
     {
         if(ending)
         {
-            PlayerControlDelegates.PlayerInput(1, true);
-            PlayerControlDelegates.PlayerJump(false);
+
+
+            if(!dead)
+            {
+                PlayerControlDelegates.PlayerInput(1, true);
+                PlayerControlDelegates.PlayerJump(false);
+            }
+            
 
             timeDelay += Time.deltaTime;
 
@@ -38,8 +45,9 @@ public class OnGameEnd : MonoBehaviour
         
     }
 
-    public void StartLevelEnd(string SceneToLoad)
+    public void StartLevelEnd(string SceneToLoad, bool dead = false)
     {
+        this.dead = dead;
         this.SceneToLoad = SceneToLoad;
         camera.transform.parent = null;
         ending = true;

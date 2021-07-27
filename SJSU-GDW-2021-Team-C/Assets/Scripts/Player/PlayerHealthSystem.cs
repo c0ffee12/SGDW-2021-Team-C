@@ -29,8 +29,12 @@ public class PlayerHealthSystem : MonoBehaviour
     {
         if(health <= 0)
         {
-            GameObject.Find("GameController").GetComponent<OnGameEnd>().StartLevelEnd(SceneManager.GetActiveScene().name);
-            Destroy(gameObject);
+            GameObject.Find("GameController").GetComponent<OnGameEnd>().StartLevelEnd(SceneManager.GetActiveScene().name, true);
+            GameObject.Find("Player").GetComponent<PlayerControl>().OnSceneUnload();
+            GameObject.Destroy(GameObject.Find("Player").GetComponent<AudioSource>());
+            GameObject.Destroy(GameObject.Find("SpringTailAsset").GetComponent<SpriteRenderer>());
+            GameObject.Destroy(GameObject.Find("SpringTailShadow").GetComponent<SpriteRenderer>());
+            GameObject.Find("Main Camera").transform.parent = null;
             
         }
     }

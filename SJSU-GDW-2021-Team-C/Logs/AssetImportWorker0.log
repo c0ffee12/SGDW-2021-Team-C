@@ -15,11 +15,11 @@ C:/Users/domin/Documents/GitHub/SGDW-2021-Team-C-2/SJSU-GDW-2021-Team-C
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53174
+56820
 Successfully changed project path to: C:/Users/domin/Documents/GitHub/SGDW-2021-Team-C-2/SJSU-GDW-2021-Team-C
 C:/Users/domin/Documents/GitHub/SGDW-2021-Team-C-2/SJSU-GDW-2021-Team-C
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,103 +35,103 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001801 seconds.
+Registered in 0.001849 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
+- Completed reload, in  1.047 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003935 seconds.
+Registered in 0.003738 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001DFF1FB2020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001C783036C30 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFED482D00 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001C782A9C6D0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDB78B60 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001C783032020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF3839020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001C783155410 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF212C020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001C78812C020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1FB2020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001C7884B3010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1FB2020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001C7884B3010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2167930 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C782D37030 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF261D230 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C788182010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF28CD420 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C788182010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2B00010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001C783036C30 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2B2DA20 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001C788182010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEE0FBC20 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001C7831A89F0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2B2DA20 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001C788182010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2167930 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001C78734A9B0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF261D230 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001C7877F1460 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDAC2850 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001C7837CD080 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2167930 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001C78734A9B0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2380010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001C78329EA30 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2167930 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001C78813F230 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2391C20 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C7832B0640 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2851020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001C787025010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1FE6C50 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001C7831A89F0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFED9BBF20 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000001C7832B0640 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2412030 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001C78310FE60 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFED7A6010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001C787689620 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2428010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001C787363020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF261D230 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C787B37E20 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDBD0B00 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001C783180F50 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2D2B9E0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001C788331C00 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF261D230 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001C787846230 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF23BF830 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001C7831A89F0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFED9F2140 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001C787389230 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 40.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.027 seconds
+- Completed reload, in  1.056 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2123 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 114.1 MB.
 System memory in use after: 114.2 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2588.
-Total: 2.720000 ms (FindLiveObjects: 0.274000 ms CreateObjectMapping: 0.103100 ms MarkObjects: 2.256900 ms  DeleteObjects: 0.084500 ms)
+Total: 2.351600 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.103200 ms MarkObjects: 1.889000 ms  DeleteObjects: 0.084300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -146,652 +146,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/98108c953635800.png
-  artifactKey: Guid(64118f32c05bf9c429eb67b11ce9149f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/98108c953635800.png using Guid(64118f32c05bf9c429eb67b11ce9149f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fea842aadeef8ba592d9b8ff31fea0') in 0.130746 seconds 
-  Import took 0.134187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.722071 seconds.
-  path: Assets/BossMouseHealthSystem.cs
-  artifactKey: Guid(d42ab728eaa4830458473a02f6ccec5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossMouseHealthSystem.cs using Guid(d42ab728eaa4830458473a02f6ccec5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139b980e52d5d511559d02cb6cd8cec8') in 0.014514 seconds 
-  Import took 0.017708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000828 seconds.
-  path: Assets/BossMouseHealthSystem.cs
-  artifactKey: Guid(d42ab728eaa4830458473a02f6ccec5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BossMouseHealthSystem.cs using Guid(d42ab728eaa4830458473a02f6ccec5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139b980e52d5d511559d02cb6cd8cec8') in 0.003308 seconds 
-  Import took 0.007469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.411511 seconds.
-  path: Assets/GameObjects/Entities/DeathPlane.prefab
-  artifactKey: Guid(9b89778c4acf9374a9dd71a8ba264462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Entities/DeathPlane.prefab using Guid(9b89778c4acf9374a9dd71a8ba264462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49819416ad8d5e7f94952b8e340d4b2') in 0.019710 seconds 
-  Import took 0.023902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/GameObjects/Entities/TwoWayPlatform.prefab
-  artifactKey: Guid(3220983e631c30f4eaf268dad273a2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Entities/TwoWayPlatform.prefab using Guid(3220983e631c30f4eaf268dad273a2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91169278103b9ed7cecc1a5714d107d') in 0.040063 seconds 
-  Import took 0.043225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/GameObjects/Entities/FoodCollectible.prefab
-  artifactKey: Guid(02a85860772b2494f9590bd0ca3c48f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Entities/FoodCollectible.prefab using Guid(02a85860772b2494f9590bd0ca3c48f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416fb80684f878cdee95225387193ab9') in 0.018544 seconds 
-  Import took 0.022341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/GameObjects/Entities/OneWayPlatform.prefab
-  artifactKey: Guid(20e2f9aa6312afb41a767cdd5764fb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Entities/OneWayPlatform.prefab using Guid(20e2f9aa6312afb41a767cdd5764fb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f03071ddc4e897823b41355d82c6f94') in 0.024403 seconds 
-  Import took 0.027858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/GameObjects/Entities/FoodCollectible.prefab
-  artifactKey: Guid(02a85860772b2494f9590bd0ca3c48f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Entities/FoodCollectible.prefab using Guid(02a85860772b2494f9590bd0ca3c48f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416fb80684f878cdee95225387193ab9') in 0.020322 seconds 
-  Import took 0.024107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/GameObjects/Entities/SilverCoin.prefab
-  artifactKey: Guid(602dcd0c9314fb741a41517573b0d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Entities/SilverCoin.prefab using Guid(602dcd0c9314fb741a41517573b0d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae610d3e4475f0d1fbf35ca42ab830c6') in 0.020572 seconds 
-  Import took 0.024267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/GameObjects/Entities/GoldCoin.prefab
-  artifactKey: Guid(88a7133c4337445438513220bb46a04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Entities/GoldCoin.prefab using Guid(88a7133c4337445438513220bb46a04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e679aa0660d2e462f9c75b455a98df13') in 0.022204 seconds 
-  Import took 0.025756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/GameObjects/Entities/Key(1).prefab
-  artifactKey: Guid(600c890536f80644682bea5d39611034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Entities/Key(1).prefab using Guid(600c890536f80644682bea5d39611034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eaa177b158882890df02758df19ea89') in 0.014916 seconds 
-  Import took 0.018712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.836761 seconds.
-  path: Assets/GameObjects/Enemies/Mouse Variant.prefab
-  artifactKey: Guid(61093d8da46c39d4daa6a0262aa38605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Enemies/Mouse Variant.prefab using Guid(61093d8da46c39d4daa6a0262aa38605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84a23bbc05ca156bd601142ad5687f2') in 0.081274 seconds 
-  Import took 0.085323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/GameObjects/Enemies/RabidMouse Variant.prefab
-  artifactKey: Guid(b3e42d4bd3cf6af43a5722e1f0256d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Enemies/RabidMouse Variant.prefab using Guid(b3e42d4bd3cf6af43a5722e1f0256d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361a58b4531ae46d2a9d981133f7c3d4') in 0.030608 seconds 
-  Import took 0.034136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.969320 seconds.
-  path: Assets/Scenes/LivingRoomScene2.unity
-  artifactKey: Guid(7816957e576d99843a8b452f027d740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LivingRoomScene2.unity using Guid(7816957e576d99843a8b452f027d740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74be97922a3048a4d23ebbd1d46a8203') in 0.010590 seconds 
-  Import took 0.015333 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003542 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001DFF3753020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF72389A0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1E78410 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF247D020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF3E5C020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1FE8C60 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF3E5C020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1E8BB60 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1FE8C60 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF3E5C020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2C62020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDE4B010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF3780A30 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF3E5C020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2784010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2784010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDE5C420 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2784010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1FB2020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF32003F0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEE071020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDA10010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1E78410 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEE071020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF65F6700 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2119700 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEE01DC60 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFED765020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF247D020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDC1B9C0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1FDFC30 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF3780A30 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFED7730E0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.942 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.7 MB.
-System memory in use after: 116.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2602.
-Total: 2.645600 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.053600 ms MarkObjects: 2.286400 ms  DeleteObjects: 0.084800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 31.257540 seconds.
-  path: Assets/GameObjects/Entities/Player.prefab
-  artifactKey: Guid(a825dad689e7aff4a98e71e19a3cd49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Entities/Player.prefab using Guid(a825dad689e7aff4a98e71e19a3cd49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Player': Transition 'SpringIdle -> TakeDamage' in state 'SpringIdle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Player': Transition 'CatSpringJumping -> TakeDamage' in state 'CatSpringJumping' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Player': Transition 'ChargeJump -> TakeDamage' in state 'ChargeJump' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Player': Transition 'CatFullyCharged -> TakeDamage' in state 'CatFullyCharged' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '94d6dacedc49f5a3667772e65d6a6f28') in 0.066275 seconds 
-  Import took 0.070121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000984 seconds.
-  path: Assets/GameObjects/Entities/Player.prefab
-  artifactKey: Guid(a825dad689e7aff4a98e71e19a3cd49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Entities/Player.prefab using Guid(a825dad689e7aff4a98e71e19a3cd49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Player': Transition 'SpringIdle -> TakeDamage' in state 'SpringIdle' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Player': Transition 'CatSpringJumping -> TakeDamage' in state 'CatSpringJumping' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Player': Transition 'ChargeJump -> TakeDamage' in state 'ChargeJump' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'Player': Transition 'CatFullyCharged -> TakeDamage' in state 'CatFullyCharged' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '94d6dacedc49f5a3667772e65d6a6f28') in 0.017262 seconds 
-  Import took 0.021364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.361381 seconds.
   path: Assets/GameObjects/Entities/GameController.prefab
   artifactKey: Guid(aee4017e9ed5bbe45be746b2cea5c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObjects/Entities/GameController.prefab using Guid(aee4017e9ed5bbe45be746b2cea5c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab54f5a750867ec6b8454e5e5f64ae21') in 0.009907 seconds 
-  Import took 0.014121 seconds .
+Start importing Assets/GameObjects/Entities/GameController.prefab using Guid(aee4017e9ed5bbe45be746b2cea5c2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1975d47dd060733c9ad2c9c9f3a439af') in 0.043481 seconds 
+  Import took 0.046783 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.408613 seconds.
-  path: Assets/Scenes/Bathroom.unity
-  artifactKey: Guid(18c037c1d8f41894086e217ec7cfffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Bathroom.unity using Guid(18c037c1d8f41894086e217ec7cfffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af707bb0b9fd5721e6f9cdc339023477') in 0.009768 seconds 
-  Import took 0.014410 seconds .
+  Time since last request: 4.835655 seconds.
+  path: Assets/Scenes/LivingRoomScene2.unity
+  artifactKey: Guid(7816957e576d99843a8b452f027d740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LivingRoomScene2.unity using Guid(7816957e576d99843a8b452f027d740e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3107b37e0961fa10eaf579a8ecde91') in 0.015907 seconds 
+  Import took 0.019646 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 15.095237 seconds.
-  path: Assets/Assets/Backgrounds/Floor_Tile.png
-  artifactKey: Guid(16b3532011d9a6e4487fb38462716411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Backgrounds/Floor_Tile.png using Guid(16b3532011d9a6e4487fb38462716411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4d084186d665bfd3adc069fb9f1b6b') in 0.032376 seconds 
-  Import took 0.036595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Assets/Backgrounds/pixil-frame-0 (2).png
-  artifactKey: Guid(8cded0a6ff0b0cc41ad35967ab90b04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Backgrounds/pixil-frame-0 (2).png using Guid(8cded0a6ff0b0cc41ad35967ab90b04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bc1fc9cd43a086f625f1c57c9f4178') in 0.025833 seconds 
-  Import took 0.030054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Assets/Backgrounds/Wall_Tile.png
-  artifactKey: Guid(f6b71abc0f77fe543bab27563d6cce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Backgrounds/Wall_Tile.png using Guid(f6b71abc0f77fe543bab27563d6cce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d13e60d31575925b8f02aefd14ae21') in 0.023813 seconds 
-  Import took 0.026956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Assets/Backgrounds/Floor_Tile.png
-  artifactKey: Guid(16b3532011d9a6e4487fb38462716411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Backgrounds/Floor_Tile.png using Guid(16b3532011d9a6e4487fb38462716411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4d084186d665bfd3adc069fb9f1b6b') in 0.009496 seconds 
-  Import took 0.012696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.583085 seconds.
-  path: Assets/Assets/Bathroom/Bathroom Tile V2.png
-  artifactKey: Guid(566864e516def4a4091faed46e43401d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Bathroom/Bathroom Tile V2.png using Guid(566864e516def4a4091faed46e43401d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639ae9823c8afe5f2b1c4e70acfeaf12') in 0.017516 seconds 
-  Import took 0.022340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Assets/Bathroom/Bathtub.png
-  artifactKey: Guid(e5c0eeece98b1e04dbe73d33482d1f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Bathroom/Bathtub.png using Guid(e5c0eeece98b1e04dbe73d33482d1f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f7479fde047e4963fa9fdd6a8989a5') in 0.013566 seconds 
-  Import took 0.016826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Assets/Bathroom/Bathroom_Background.png
-  artifactKey: Guid(109aae2cc2a3d2245842860d8a6b4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Bathroom/Bathroom_Background.png using Guid(109aae2cc2a3d2245842860d8a6b4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40939d3e4e7d7536ff72a3997709473') in 0.031851 seconds 
-  Import took 0.035512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Assets/Bathroom/Mirror.png
-  artifactKey: Guid(7abe79131a6eff7448fbea287f9bd6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Bathroom/Mirror.png using Guid(7abe79131a6eff7448fbea287f9bd6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bac5992d692f1753c3542773d45d585') in 0.013429 seconds 
-  Import took 0.016660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Assets/Bathroom/Bathroom Tile V3.png
-  artifactKey: Guid(4170e903d4d0bd945aae0b9982d65457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Bathroom/Bathroom Tile V3.png using Guid(4170e903d4d0bd945aae0b9982d65457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b747590d322d6c2218786dca1b5c49') in 0.022007 seconds 
-  Import took 0.025580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Assets/Bathroom/Toilet.png
-  artifactKey: Guid(a530764a2a8c2d747afdd9c3b293b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Bathroom/Toilet.png using Guid(a530764a2a8c2d747afdd9c3b293b951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8337e9ea31a5ecda3190a794b048b606') in 0.009918 seconds 
-  Import took 0.013199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.228056 seconds.
-  path: Assets/Assets/Cat/bouncing_assests.png
-  artifactKey: Guid(2245e7a85790bdd4bb611ac7969916ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Cat/bouncing_assests.png using Guid(2245e7a85790bdd4bb611ac7969916ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497d38d01202d49cba3676b4438e8c11') in 0.034338 seconds 
-  Import took 0.038402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Assets/Cat/idle_assets.png
-  artifactKey: Guid(8d560467d4150ed49a4a0364bfbd7e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Cat/idle_assets.png using Guid(8d560467d4150ed49a4a0364bfbd7e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a429cfd3bc83b474ab908c222b5ec9c') in 0.047159 seconds 
-  Import took 0.051067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Assets/Cat/transition_assests.png
-  artifactKey: Guid(08a85f0ed28d21944961d28012c50361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Cat/transition_assests.png using Guid(08a85f0ed28d21944961d28012c50361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4df50b515b04ef664430d03258ab22b') in 0.065732 seconds 
-  Import took 0.069475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Assets/Cat/charging_assests.png
-  artifactKey: Guid(c27557f5b7b86bf45bc7958822a0312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Cat/charging_assests.png using Guid(c27557f5b7b86bf45bc7958822a0312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fac3370b7049e2565ac4ef770717f2') in 0.060751 seconds 
-  Import took 0.064492 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003572 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001DFF6A790D0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF7236F60 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6FF5270 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF55C5020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6B56E30 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1FE8C60 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDDE49E0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6874310 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF23B2500 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6B56E30 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2C62020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEE04DC90 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6ADB920 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1E81D30 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6DDBA40 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6D20C70 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF55C5020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF66C0030 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6A790D0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6C95050 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF212C020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDA10010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6FF5270 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF65E1CF0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDFD4010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFED8F3EC0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDB82F80 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF23B2500 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF55C5020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6D12E60 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6DDBA40 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF65C6020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF23B2500 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 117.0 MB.
-System memory in use after: 117.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2632.
-Total: 2.996300 ms (FindLiveObjects: 0.389800 ms CreateObjectMapping: 0.066600 ms MarkObjects: 2.458000 ms  DeleteObjects: 0.080100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003619 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001DFF6A750C0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF72389A0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6FF5270 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF56D1040 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF3B0D030 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF1FE8C60 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF3B0D030 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6874310 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFED7730E0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF3B0D030 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF2C62020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6B01D50 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF23BC330 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF3B0D030 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6E72020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDC05030 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF56D1040 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6E72020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001E017D7F020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDDC3020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF212C020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFEDA10010 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6FF5270 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF65E1CF0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6AA2CD0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF56D1040 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6E7D830 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFED7730E0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF56D1040 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6D13F40 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF6E72020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFF65C6020 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001DFED7730E0 doesn't match image C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.926 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 117.0 MB.
-System memory in use after: 117.1 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2636.
-Total: 2.879600 ms (FindLiveObjects: 0.277100 ms CreateObjectMapping: 0.103100 ms MarkObjects: 2.426300 ms  DeleteObjects: 0.071400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -74,7 +74,9 @@ public class PlayerAnimationControl : MonoBehaviour
     {
         for(float i = length; i >= 0; i -= TimeBetweenFlicker)
         {
-            spriteRenderer.enabled = !spriteRenderer.enabled;
+            if(spriteRenderer != null)
+                spriteRenderer.enabled = !spriteRenderer.enabled;
+
             yield return new WaitForSeconds(TimeBetweenFlicker);
         }
 
