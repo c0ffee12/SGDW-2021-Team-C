@@ -4,15 +4,6 @@ using UnityEngine;
 
 public class BossMouseHealthSystem : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int heatlh;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
