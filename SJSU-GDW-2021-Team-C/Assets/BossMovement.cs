@@ -83,7 +83,7 @@ public class BossMovement : MonoBehaviour
     public void PanicMode()
     {
         panicModeOn = true;
-        speed = 6;
+        speed = 10;
         StartCoroutine(PanicModeDelay());
     }
     public void PanicRun()
