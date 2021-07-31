@@ -35,15 +35,14 @@ public class BossMovement : MonoBehaviour
             speed = 2;
             ChasePlayer();
         }
-        else
+        else if(panicModeOn)
         {
             PanicRun();
         }
     }
     void FixedUpdate()
     {
-        float distToPlayer = Vector2.Distance(transform.position, player.position);
-        if (!jumping)
+        if (!jumping && !panicModeOn)
         {
             jumping = true;
             StartCoroutine(Pounce());
@@ -83,7 +82,7 @@ public class BossMovement : MonoBehaviour
     public void PanicMode()
     {
         panicModeOn = true;
-        speed = 10;
+        speed = 15;
         StartCoroutine(PanicModeDelay());
     }
     public void PanicRun()

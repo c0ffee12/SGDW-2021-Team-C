@@ -25,7 +25,7 @@ public class BossMouseHealthSystem : MonoBehaviour
             {
                 Destroy(transform.parent.gameObject);
             }
-            if(Bosshealth == 5 || Bosshealth == 2)
+            if(Bosshealth % 5 == 0)
             {
                 BossMouse.PanicMode();
                 Debug.Log("PANIC MODE ACTIVATED");
