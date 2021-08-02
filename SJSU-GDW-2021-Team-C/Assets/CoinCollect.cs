@@ -8,6 +8,15 @@ public class CoinCollect : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("SpringTailHitBox"))
         {
+
+            if (this.name.StartsWith("Gold"))
+            {
+                GameObject.Find("ScoreCounter").GetComponent<ScoreCounter>().ChangeMoney(1);
+            }
+            else
+            {
+                GameObject.Find("ScoreCounter").GetComponent<ScoreCounter>().ChangeMoney(5);
+            }
             Destroy(transform.gameObject);
         }
     }

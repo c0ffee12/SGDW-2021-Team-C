@@ -28,6 +28,7 @@ public class OnGameEnd : MonoBehaviour
 
             if(!dead)
             {
+
                 PlayerControlDelegates.PlayerInput(1, true);
                 PlayerControlDelegates.PlayerJump(false);
             }

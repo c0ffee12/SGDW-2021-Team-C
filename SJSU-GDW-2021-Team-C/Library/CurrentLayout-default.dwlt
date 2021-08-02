@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 64
+  controlID: 107
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 65
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 66
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -413,22 +413,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GameObjects/Entities
+    - Assets/Assets/UI
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/GameObjects/Entities
+  - Assets/Assets/UI
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\smei0\Desktop\NewRepository\SJSU-GDW-2021-Team-C
+  m_LastProjectPath: C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 224}
-    m_SelectedIDs: 84450000
-    m_LastClickedID: 17796
-    m_ExpandedIDs: 000000002a4500002c4500002e45000030450000324500003445000036450000384500003c45000000ca9a3b
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 66490000
+    m_LastClickedID: 18790
+    m_ExpandedIDs: 0000000040490000424900004449000046490000484900004a4900004c4900004e490000564900005849000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -456,7 +456,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a4500002c4500002e4500003045000032450000344500003645000038450000
+    m_ExpandedIDs: 0000000040490000424900004449000046490000484900004a4900004c4900004e490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -576,10 +576,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 3efbffff40fbffff
+      scrollPos: {x: 0, y: 468}
+      m_SelectedIDs: a2c6feff
+      m_LastClickedID: -80222
+      m_ExpandedIDs: aec6feffa0d6feffecdcfefff8dcfeff32e2feff96e3feff7a1dffff901dffff241effff1633ffff1a3cffffb254ffff6256ffff6e56ffff6066ffffd067ffffdc67ffffdc6effff7c7fffffa089ffffc6b4ffffd2b4ffffa6c4fffffecbffffa8cfffff66e0fffff6f6ffff5ef7ffff5a6a0100806b0100246c0100348e0100c0b0010084bc0100a0cb01005cee0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -639,9 +639,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.51374674, y: -17.523909, z: -513.2212}
+    m_Target: {x: 0.3773799, y: 39.890907, z: -178.13483}
     speed: 2
-    m_Value: {x: 0.51374674, y: -17.523909, z: -513.2212}
+    m_Value: {x: 0.3773799, y: 39.890907, z: -178.13483}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -692,9 +692,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 15.074041
+    m_Target: 189.28693
     speed: 2
-    m_Value: 15.074041
+    m_Value: 189.28693
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -712,7 +712,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.0077960994, y: -0.059366442, z: 0.00046373298, w: -0.99820685}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
