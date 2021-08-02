@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 107
+  controlID: 16
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 465
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -413,22 +413,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Assets/UI
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Assets/UI
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\domin\Documents\GitHub\SGDW-2021-Team-C-2\SJSU-GDW-2021-Team-C
+  m_LastProjectPath: C:\Users\smei0\Desktop\NewRepository\SJSU-GDW-2021-Team-C
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 66490000
-    m_LastClickedID: 18790
-    m_ExpandedIDs: 0000000040490000424900004449000046490000484900004a4900004c4900004e490000564900005849000000ca9a3b
+    scrollPos: {x: 0, y: 336}
+    m_SelectedIDs: 704d0000
+    m_LastClickedID: 19824
+    m_ExpandedIDs: 00000000524d0000544d0000564d0000584d00005a4d00005c4d00005e4d0000604d0000624d0000644d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -456,7 +456,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000040490000424900004449000046490000484900004a4900004c4900004e490000
+    m_ExpandedIDs: 00000000524d0000544d0000564d0000584d00005a4d00005c4d00005e4d0000604d0000624d0000644d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -576,24 +576,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 468}
-      m_SelectedIDs: a2c6feff
-      m_LastClickedID: -80222
-      m_ExpandedIDs: aec6feffa0d6feffecdcfefff8dcfeff32e2feff96e3feff7a1dffff901dffff241effff1633ffff1a3cffffb254ffff6256ffff6e56ffff6066ffffd067ffffdc67ffffdc6effff7c7fffffa089ffffc6b4ffffd2b4ffffa6c4fffffecbffffa8cfffff66e0fffff6f6ffff5ef7ffff5a6a0100806b0100246c0100348e0100c0b0010084bc0100a0cb01005cee0100
+      scrollPos: {x: 0, y: 1248}
+      m_SelectedIDs: 0cd5feff
+      m_LastClickedID: -76532
+      m_ExpandedIDs: 48d7feffac02ffffb202ffffb402ffff4403ffff7e08ffffec28ffff7c2cffffc433ffff6c34ffff7a37fffff669ffffb2e5ffff46e6ffff4ef7ffffbe850000b2860000d2860000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Chandelier_Oscillating (2)
+        m_OriginalName: Chandelier_Oscillating (2)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -64844
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -639,9 +639,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.3773799, y: 39.890907, z: -178.13483}
+    m_Target: {x: -196.00063, y: 22.212574, z: -256.24384}
     speed: 2
-    m_Value: {x: 0.3773799, y: 39.890907, z: -178.13483}
+    m_Value: {x: -196.00063, y: 22.212574, z: -256.24384}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -692,9 +692,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 189.28693
+    m_Target: 24.377695
     speed: 2
-    m_Value: 189.28693
+    m_Value: 24.377695
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -712,7 +712,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.0077960994, y: -0.059366442, z: 0.00046373298, w: -0.99820685}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
