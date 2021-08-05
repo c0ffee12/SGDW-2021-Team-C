@@ -79,8 +79,8 @@ public class PlayerAnimationControl : MonoBehaviour
 
             yield return new WaitForSeconds(TimeBetweenFlicker);
         }
-
-        spriteRenderer.enabled = true;
+        if (spriteRenderer != null)
+            spriteRenderer.enabled = true;
 
     }
 

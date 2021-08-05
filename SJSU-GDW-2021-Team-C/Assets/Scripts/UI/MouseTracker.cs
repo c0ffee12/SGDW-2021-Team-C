@@ -46,7 +46,7 @@ public class MouseTracker : MonoBehaviour
 
 
 
-            rotationOfCursor = Vector2.SignedAngle(Vector2.up, nearestMouse.transform.position - player.transform.position + 2 * Vector3.up); //180 is temp; change when making new ui
+            rotationOfCursor = Vector2.SignedAngle(Vector2.up, nearestMouse.transform.position - player.transform.position); //180 is temp; change when making new ui
 
         } 
 
@@ -71,7 +71,7 @@ public class MouseTracker : MonoBehaviour
         }
         r.rotation = Quaternion.Euler(0, 0, rotationOfCursor);
 
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.02f);
         StartCoroutine(UpdateMouseTracker());
 
 

@@ -7,11 +7,20 @@ public class ScoreCounter : MonoBehaviour
 {
 
     public Text text;
+    public float scoreBeforeDeath = Score.money;
+
+
 
     public void Start()
     {
         text = GetComponent<Text>();
         formatText(Score.money);
+        scoreBeforeDeath = Score.money;
+    }
+
+    public void ResetMoney()
+    {
+        Score.money = scoreBeforeDeath;
     }
 
     public void ChangeMoney(float money)
@@ -30,5 +39,5 @@ public class ScoreCounter : MonoBehaviour
 
 public static class Score
 {
-    public static float money = 0f;
+    public static float money;
 }

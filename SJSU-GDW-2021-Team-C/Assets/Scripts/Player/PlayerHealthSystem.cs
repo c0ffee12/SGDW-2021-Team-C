@@ -9,9 +9,13 @@ public class PlayerHealthSystem : MonoBehaviour
 {
     public int health; //actually means 3
     public GameObject cat;
+    public bool CanTakeDamage = true;
 
     public void TakeDamage()
     {
+
+        if (!CanTakeDamage) return;
+
         health -= 1;
         PlayerControlDelegates.onHealthChange(health);
     }

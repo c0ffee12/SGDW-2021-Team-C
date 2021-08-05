@@ -19,7 +19,7 @@ public class DieTouchingDeathPlane : MonoBehaviour
 
         if(collider.gameObject.tag == "DeathPlane")
         {
-            gameEnd.StartLevelEnd(SceneManager.GetActiveScene().name);
+            gameEnd.StartLevelEnd(SceneManager.GetActiveScene().name, dead: true, justStopMoving: true);
         }
 
     }

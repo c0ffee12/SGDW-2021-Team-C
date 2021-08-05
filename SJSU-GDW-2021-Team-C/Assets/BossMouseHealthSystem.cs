@@ -29,6 +29,8 @@ public class BossMouseHealthSystem : MonoBehaviour
             if (Bosshealth <= 0)
             {
                 Destroy(transform.parent.gameObject);
+                GameObject.Find("GameController").GetComponent<OnGameEnd>().StartLevelEnd("EndScene", false, true);
+                GameObject.Find("Player").GetComponent<PlayerHealthSystem>().CanTakeDamage = false;
             }
             if(Bosshealth % 3 == 0)
             {

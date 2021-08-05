@@ -9,7 +9,7 @@ public class OnGameEnd : MonoBehaviour
     public string SceneToLoad;
     public PlayerControl control;
     public GameObject camera;
-    public bool ending = false, dead = false;
+    public bool ending = false, dead = false, stopMoving = false;
     float timeDelay = 0f;
 
     // Start is called before the first frame update
@@ -24,13 +24,27 @@ public class OnGameEnd : MonoBehaviour
     {
         if(ending)
         {
+            if(dead)
+            {
+                GameObject.Find("ScoreCounter").GetComponent<ScoreCounter>().ResetMoney();
+            }
 
-
-            if(!dead)
+            if(!dead && !stopMoving)
             {
 
-                PlayerControlDelegates.PlayerInput(1, true);
-                PlayerControlDelegates.PlayerJump(false);
+                if (PlayerControlDelegates.PlayerInput != null)
+                    PlayerControlDelegates.PlayerInput(1, true);
+
+                if (PlayerControlDelegates.PlayerJump != null)
+                    PlayerControlDelegates.PlayerJump(false);
+            }
+            else
+            {
+                if (PlayerControlDelegates.PlayerInput != null)
+                    PlayerControlDelegates.PlayerInput(0, false);
+
+                if (PlayerControlDelegates.PlayerJump != null)
+                    PlayerControlDelegates.PlayerJump(false);
             }
             
 
@@ -46,11 +60,12 @@ public class OnGameEnd : MonoBehaviour
         
     }
 
-    public void StartLevelEnd(string SceneToLoad, bool dead = false)
+    public void StartLevelEnd(string SceneToLoad, bool dead = false, bool justStopMoving = false)
     {
         this.dead = dead;
         this.SceneToLoad = SceneToLoad;
         camera.transform.parent = null;
+        this.stopMoving = justStopMoving;
         ending = true;
 
 
